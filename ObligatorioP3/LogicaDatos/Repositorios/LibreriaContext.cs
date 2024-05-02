@@ -33,7 +33,7 @@ namespace LogicaDatos.Repositorios
 				.HasKey(c => c.Rut);
 
 			modelBuilder.Entity<Articulo>()
-			    .HasKey(a => a.Codigo);
+			    .HasKey(a => a.Id);
 
             modelBuilder.Entity<Usuario>()
                 .HasKey(u => u.Id);

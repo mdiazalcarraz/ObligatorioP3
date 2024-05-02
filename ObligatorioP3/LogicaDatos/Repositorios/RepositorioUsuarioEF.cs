@@ -1,4 +1,5 @@
 ﻿using LogicaNegocio.Dominio;
+using LogicaNegocio.ExcepcionesPropias;
 using LogicaNegocio.InterfacesRepositorios;
 using System;
 using System.Collections.Generic;
@@ -31,8 +32,12 @@ namespace LogicaDatos.Repositorios
             if (nuevo != null)
             {
                 nuevo.Validar();
-                Contexto.Usuarios.Add(nuevo);
-                Contexto.SaveChanges();
+                if (FindByEmail(nuevo.Email) == null)
+                {
+                    Contexto.Usuarios.Add(nuevo);
+                    Contexto.SaveChanges();
+                }
+                else { throw new DatosInvalidosException("El mail ya esta en uso"); }
             }
         }
 

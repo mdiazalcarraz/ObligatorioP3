@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CasosUso\CasosUsoArticulo\CUBajaArticulo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\LogicaDatos\LogicaDatos.csproj" />
     <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj" />
   </ItemGroup>

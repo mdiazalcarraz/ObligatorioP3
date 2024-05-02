@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using LogicaAplicacion.CasosUso.CasosUsoUsuario;
 using LogicaAplicacion.InterfacesCU;
+using Microsoft.AspNetCore.Http;
 
 namespace ObligatorioP3.Controllers
 {
@@ -54,6 +55,7 @@ namespace ObligatorioP3.Controllers
                 if (usu != null)
                 {
                     HttpContext.Session.SetString("usu", email);
+                    if (usu.Administrador) { HttpContext.Session.SetString("rol", "Admin"); }
                     return RedirectToAction("Index", "Usuarios");
                 }
                 else

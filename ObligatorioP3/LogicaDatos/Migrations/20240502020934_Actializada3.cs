@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace LogicaDatos.Migrations
 {
     /// <inheritdoc />
-    public partial class NuevaActualizada : Migration
+    public partial class Actializada3 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,16 +15,17 @@ namespace LogicaDatos.Migrations
                 name: "Articulos",
                 columns: table => new
                 {
-                    Codigo = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Id = table.Column<int>(type: "int", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Codigo = table.Column<int>(type: "int", nullable: false),
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Precio = table.Column<int>(type: "int", nullable: false),
                     Stock = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Articulos", x => x.Codigo);
+                    table.PrimaryKey("PK_Articulos", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -119,7 +120,7 @@ namespace LogicaDatos.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ArticuloCodigo = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    ArticuloId = table.Column<int>(type: "int", nullable: false),
                     Cantidad = table.Column<int>(type: "int", nullable: false),
                     PrecioUnitarioVigente = table.Column<int>(type: "int", nullable: false),
                     PedidoId = table.Column<int>(type: "int", nullable: true)
@@ -128,10 +129,10 @@ namespace LogicaDatos.Migrations
                 {
                     table.PrimaryKey("PK_Lineas", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Lineas_Articulos_ArticuloCodigo",
-                        column: x => x.ArticuloCodigo,
+                        name: "FK_Lineas_Articulos_ArticuloId",
+                        column: x => x.ArticuloId,
                         principalTable: "Articulos",
-                        principalColumn: "Codigo",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Lineas_Pedidos_PedidoId",
@@ -146,9 +147,9 @@ namespace LogicaDatos.Migrations
                 column: "DireccionId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Lineas_ArticuloCodigo",
+                name: "IX_Lineas_ArticuloId",
                 table: "Lineas",
-                column: "ArticuloCodigo");
+                column: "ArticuloId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Lineas_PedidoId",

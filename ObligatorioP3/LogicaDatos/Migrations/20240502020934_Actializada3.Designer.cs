@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LogicaDatos.Migrations
 {
     [DbContext(typeof(LibreriaContext))]
-    [Migration("20240501234430_NuevaActualizada")]
-    partial class NuevaActualizada
+    [Migration("20240502020934_Actializada3")]
+    partial class Actializada3
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,15 +27,18 @@ namespace LogicaDatos.Migrations
 
             modelBuilder.Entity("LogicaNegocio.Dominio.Articulo", b =>
                 {
-                    b.Property<string>("Codigo")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Codigo")
+                        .HasColumnType("int");
 
                     b.Property<string>("Descripcion")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
 
                     b.Property<string>("Nombre")
                         .IsRequired()
@@ -47,7 +50,7 @@ namespace LogicaDatos.Migrations
                     b.Property<int>("Stock")
                         .HasColumnType("int");
 
-                    b.HasKey("Codigo");
+                    b.HasKey("Id");
 
                     b.ToTable("Articulos");
                 });
@@ -109,9 +112,8 @@ namespace LogicaDatos.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("ArticuloCodigo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("ArticuloId")
+                        .HasColumnType("int");
 
                     b.Property<int>("Cantidad")
                         .HasColumnType("int");
@@ -124,7 +126,7 @@ namespace LogicaDatos.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ArticuloCodigo");
+                    b.HasIndex("ArticuloId");
 
                     b.HasIndex("PedidoId");
 
@@ -218,7 +220,7 @@ namespace LogicaDatos.Migrations
                 {
                     b.HasOne("LogicaNegocio.Dominio.Articulo", "Articulo")
                         .WithMany()
-                        .HasForeignKey("ArticuloCodigo")
+                        .HasForeignKey("ArticuloId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

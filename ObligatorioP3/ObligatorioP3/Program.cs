@@ -4,6 +4,8 @@ using LogicaAplicacion.InterfacesCU;
 using LogicaDatos.Repositorios;
 using LogicaNegocio.Dominio;
 using LogicaNegocio.InterfacesRepositorios;
+using LogicaAplicacion.CasosUsoArticulo;
+using LogicaAplicacion.CasosUso.CasosUsoArticulo;
 
 namespace ObligatorioP3
 {
@@ -21,13 +23,18 @@ namespace ObligatorioP3
 			builder.Services.AddScoped<ICULoginUsuario, CULoginUsuario>();
             builder.Services.AddScoped<ICUListado<Usuario>, CUListarUsuarios>();
             builder.Services.AddScoped<ICUAlta<Usuario>, CUAltaUsuario>();
+            builder.Services.AddScoped<ICUListado<Articulo>, CUListaArticuloOrden>();
+            builder.Services.AddScoped<ICUAlta<Articulo>, CUAltaArticulo>();
             builder.Services.AddScoped<ICUBaja, CUBorrarUsuario>();
             builder.Services.AddScoped<ICUBuscarPorId<Usuario>, CUBuscarUsuarioPorId>();
+            builder.Services.AddScoped<ICUBaja, CUBorrarArticulo>();
+            builder.Services.AddScoped<ICUBuscarPorId<Articulo>, CUBuscarArticuloPorId>();
             builder.Services.AddScoped<ICUModificar<Usuario>, CUEditarUsuario>();
 
             builder.Services.AddScoped<IRepositorioUsuario, RepositorioUsuarioEF>();
+            builder.Services.AddScoped<IRepositorioArticulo, RepositorioArticulosEF>();
 
-			builder.Services.AddDbContext<LibreriaContext>();
+            builder.Services.AddDbContext<LibreriaContext>();
 
             var app = builder.Build();
 
