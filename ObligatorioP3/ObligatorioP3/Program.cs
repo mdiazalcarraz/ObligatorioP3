@@ -1,6 +1,8 @@
 using LogicaAplicacion.CasosUso.CasosUsoUsuario;
+using LogicaAplicacion.CasosUsoUsuario;
 using LogicaAplicacion.InterfacesCU;
 using LogicaDatos.Repositorios;
+using LogicaNegocio.Dominio;
 using LogicaNegocio.InterfacesRepositorios;
 
 namespace ObligatorioP3
@@ -17,10 +19,17 @@ namespace ObligatorioP3
 			builder.Services.AddSession();
 
 			builder.Services.AddScoped<ICULoginUsuario, CULoginUsuario>();
-			builder.Services.AddScoped<IRepositorioUsuario, RepositorioUsuarioEF>();
+            builder.Services.AddScoped<ICUListado<Usuario>, CUListarUsuarios>();
+            builder.Services.AddScoped<ICUAlta<Usuario>, CUAltaUsuario>();
+            builder.Services.AddScoped<ICUBaja, CUBorrarUsuario>();
+            builder.Services.AddScoped<ICUBuscarPorId<Usuario>, CUBuscarUsuarioPorId>();
+            builder.Services.AddScoped<ICUModificar<Usuario>, CUEditarUsuario>();
+
+            builder.Services.AddScoped<IRepositorioUsuario, RepositorioUsuarioEF>();
+
 			builder.Services.AddDbContext<LibreriaContext>();
 
-			var app = builder.Build();
+            var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

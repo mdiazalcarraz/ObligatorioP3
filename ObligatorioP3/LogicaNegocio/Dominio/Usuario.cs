@@ -11,7 +11,7 @@ namespace LogicaNegocio.Dominio
     {
 		public int Id { get; set; }
 
-		public static bool Administrador = false;
+		public bool Administrador { get; set; }
         public string Email { get; set; }
         public string NombreYApellido { get; set; }
         public string Contrasenia { get; set; }
@@ -22,7 +22,7 @@ namespace LogicaNegocio.Dominio
 
         public void Validar()
         {
-            throw new NotImplementedException();
+          // Pendiente
         }
     }
 }

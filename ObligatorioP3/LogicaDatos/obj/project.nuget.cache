@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BPj++pgALDonEoA9t3seutZK9shoktbAb7HHJmoHsDufatqWLINi70UtaYE84ugoXdjq0lmh5+mVvhc6A1JWMQ==",
+  "dgSpecHash": "KS/ReWnTmPsdBWHlTJXYEfgYdJ0KAm2xm0EFIofE+jkpOBRl7j9i6SoA0mjcIvHWvJHaVrh4YnmttArkD1pHqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj",
+  "projectFilePath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathi\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

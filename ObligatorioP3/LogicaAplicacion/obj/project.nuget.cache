@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jEwJtKqfhH6CpRTnpUheQzm95eCfkrYrbKs39eehNkLvSrc6oE6V5vxor//5sA4rUUY0ZnXb0Hiv0A1jvKV0eg==",
+  "dgSpecHash": "jluKeBTLrg3PjRroy+pZJKvTfq5rRjXKEpW/aRPxdxmT4EaWCPrwzlwNMfD2K66ikZ4eu41EneVI0Qe/KWiaoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaAplicacion\\LogicaAplicacion.csproj",
+  "projectFilePath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\LogicaAplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathi\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

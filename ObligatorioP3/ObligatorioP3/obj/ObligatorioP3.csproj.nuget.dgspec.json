@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3.csproj": {}
+    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaAplicacion\\LogicaAplicacion.csproj": {
+    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\LogicaAplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaAplicacion\\LogicaAplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\LogicaAplicacion.csproj",
         "projectName": "LogicaAplicacion",
-        "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaAplicacion\\LogicaAplicacion.csproj",
+        "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\LogicaAplicacion.csproj",
         "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaAplicacion\\obj\\",
+        "outputPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj": {
-                "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj"
+              "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj": {
+                "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj"
               },
-              "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj": {
-                "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj"
+              "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj": {
+    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj",
+        "projectUniqueName": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj",
         "projectName": "LogicaDatos",
-        "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj",
+        "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj",
         "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaDatos\\obj\\",
+        "outputPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,8 +95,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj": {
-                "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj"
+              "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj"
               }
             }
           }
@@ -153,14 +153,14 @@
         }
       }
     },
-    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj": {
+    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj",
+        "projectUniqueName": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj",
         "projectName": "LogicaNegocio",
-        "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj",
+        "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj",
         "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\obj\\",
+        "outputPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -213,14 +213,14 @@
         }
       }
     },
-    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3.csproj": {
+    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3.csproj",
+        "projectUniqueName": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3.csproj",
         "projectName": "ObligatorioP3",
-        "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3.csproj",
+        "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3.csproj",
         "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3\\obj\\",
+        "outputPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -237,14 +237,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaAplicacion\\LogicaAplicacion.csproj": {
-                "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaAplicacion\\LogicaAplicacion.csproj"
+              "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\LogicaAplicacion.csproj": {
+                "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\LogicaAplicacion.csproj"
               },
-              "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj": {
-                "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj"
+              "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj": {
+                "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\LogicaDatos.csproj"
               },
-              "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj": {
-                "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj"
+              "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj"
               }
             }
           }
@@ -265,6 +265,12 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",

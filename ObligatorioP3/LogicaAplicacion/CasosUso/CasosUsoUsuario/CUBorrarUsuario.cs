@@ -11,9 +11,9 @@ namespace LogicaAplicacion.CasosUsoUsuario
 {
     public class CUBorrarUsuario : ICUBaja
     {
-        public IRepositorio<Usuario> Repo { get; set; }
+        public IRepositorioUsuario Repo { get; set; }
 
-        public CUBorrarUsuario(IRepositorio<Usuario> repo)
+        public CUBorrarUsuario(IRepositorioUsuario repo)
         {
             Repo = repo;
         }

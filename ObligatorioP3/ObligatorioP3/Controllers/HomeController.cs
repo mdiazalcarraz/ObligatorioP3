@@ -54,7 +54,7 @@ namespace ObligatorioP3.Controllers
                 if (usu != null)
                 {
                     HttpContext.Session.SetString("usu", email);
-                    return RedirectToAction("Index");
+                    return RedirectToAction("Index", "Usuarios");
                 }
                 else
                 {

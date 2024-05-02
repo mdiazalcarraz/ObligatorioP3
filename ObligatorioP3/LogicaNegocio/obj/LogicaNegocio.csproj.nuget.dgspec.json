@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj": {}
+    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj": {
+    "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj",
+        "projectUniqueName": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj",
         "projectName": "LogicaNegocio",
-        "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj",
+        "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\LogicaNegocio.csproj",
         "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\NuevoOblp3\\ObligatorioP3\\ObligatorioP3\\LogicaNegocio\\obj\\",
+        "outputPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",

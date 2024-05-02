@@ -67,12 +67,19 @@ namespace LogicaDatos.Repositorios
 
         public Usuario FindById(int id)
         {
-            throw new NotImplementedException();
+            return Contexto.Usuarios     
+                 .Where(usuario => usuario.Id == id)
+                 .SingleOrDefault();
         }
 
         public void Remove(int id)
         {
-            throw new NotImplementedException();
+            Usuario aBorrar = Contexto.Usuarios.Find(id);
+            if (aBorrar != null)
+            {
+                Contexto.Usuarios.Remove(aBorrar);
+                Contexto.SaveChanges();
+            }
         }
     }
 }
