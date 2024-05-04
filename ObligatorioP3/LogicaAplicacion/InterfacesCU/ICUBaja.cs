@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.InterfacesCU
 {
-    public interface ICUBaja
+    public interface ICUBaja<T>
     {
         void Baja(int id);
     }

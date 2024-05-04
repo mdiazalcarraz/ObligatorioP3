@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.CasosUso.CasosUsoArticulo
 {
-    public class CUBorrarArticulo : ICUBaja
+    public class CUBorrarArticulo : ICUBaja<Articulo>
     {
         public IRepositorioArticulo Repo { get; set; }
 

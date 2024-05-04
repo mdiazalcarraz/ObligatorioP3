@@ -6,6 +6,7 @@ using LogicaNegocio.Dominio;
 using LogicaNegocio.InterfacesRepositorios;
 using LogicaAplicacion.CasosUsoArticulo;
 using LogicaAplicacion.CasosUso.CasosUsoArticulo;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace ObligatorioP3
 {
@@ -25,9 +26,9 @@ namespace ObligatorioP3
             builder.Services.AddScoped<ICUAlta<Usuario>, CUAltaUsuario>();
             builder.Services.AddScoped<ICUListado<Articulo>, CUListaArticuloOrden>();
             builder.Services.AddScoped<ICUAlta<Articulo>, CUAltaArticulo>();
-            builder.Services.AddScoped<ICUBaja, CUBorrarUsuario>();
+            builder.Services.AddScoped<ICUBaja<Usuario>, CUBorrarUsuario>();
             builder.Services.AddScoped<ICUBuscarPorId<Usuario>, CUBuscarUsuarioPorId>();
-            builder.Services.AddScoped<ICUBaja, CUBorrarArticulo>();
+            builder.Services.AddScoped<ICUBaja<Articulo>, CUBorrarArticulo>();
             builder.Services.AddScoped<ICUBuscarPorId<Articulo>, CUBuscarArticuloPorId>();
             builder.Services.AddScoped<ICUModificar<Usuario>, CUEditarUsuario>();
 

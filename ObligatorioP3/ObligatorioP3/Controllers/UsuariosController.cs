@@ -21,18 +21,18 @@ namespace ObligatorioP3.Controllers
 
         public ICUAlta<Usuario> CUAlta { get; set; }
 
-        public ICUBaja CUBaja { get; set; }
+        public ICUBaja<Usuario> CUBajaUsu { get; set; }
 
         public ICUModificar<Usuario> CUModificar { get; set; }
 
         public ICUBuscarPorId<Usuario> CUBuscar { get; set; }
 
-        public UsuariosController(ICUListado<Usuario> cuListado, ICUAlta<Usuario> cuAlta, ICUBaja cuBaja, ICUModificar<Usuario> cuModificar, ICUBuscarPorId<Usuario> cUBuscarPorId)
+        public UsuariosController(ICUListado<Usuario> cuListado, ICUAlta<Usuario> cuAlta, ICUBaja<Usuario> cuBajaUsu, ICUModificar<Usuario> cuModificar, ICUBuscarPorId<Usuario> cUBuscarPorId)
         {
             CUListado = cuListado;
             CUAlta = cuAlta;
             CUModificar = cuModificar;
-            CUBaja = cuBaja;
+            CUBajaUsu = cuBajaUsu;
             CUBuscar = cUBuscarPorId;
         }
 
@@ -130,7 +130,7 @@ namespace ObligatorioP3.Controllers
         {
             try
             {
-                CUBaja.Baja(id);
+                CUBajaUsu.Baja(id);
                 return RedirectToAction(nameof(Index));
             }
             catch

@@ -21,14 +21,14 @@ namespace ObligatorioP3.Controllers
 
         public ICUBuscarPorId<Articulo> CUBuscar { get; set; }
 
-        public ICUBaja CUBaja { get; set; }
+        public ICUBaja<Articulo> CUBajaArt { get; set; }
 
-        public ArticulosController(ICUListado<Articulo> cuListado, ICUAlta<Articulo> cuAlta, ICUBuscarPorId<Articulo> cUBuscar, ICUBaja cUBaja)
+        public ArticulosController(ICUListado<Articulo> cuListado, ICUAlta<Articulo> cuAlta, ICUBuscarPorId<Articulo> cUBuscar, ICUBaja<Articulo> cUBajaArt)
         {
             CUListado = cuListado;
             CUAlta = cuAlta;
             CUBuscar = cUBuscar;
-            CUBaja = cUBaja;
+            CUBajaArt = cUBajaArt;
         }
 
         // GET: Articulos
@@ -85,14 +85,14 @@ namespace ObligatorioP3.Controllers
             return View(u);
         }
 
-        // POST: Usuarios/Delete/5
+        //POST: Usuarios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, Articulo u)
         {
             try
             {
-                CUBaja.Baja(id);
+                CUBajaArt.Baja(id);
                 return RedirectToAction(nameof(Index));
             }
             catch
