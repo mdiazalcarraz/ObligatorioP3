@@ -53,16 +53,6 @@ namespace LogicaDatos.Repositorios
                    .SingleOrDefault();
         }
 
-        public void Remove(string email)
-        {
-            Usuario aBorrar = Contexto.Usuarios.Find(email);
-            if (aBorrar != null)
-            {
-                Contexto.Usuarios.Remove(aBorrar);
-                Contexto.SaveChanges();
-            }
-        }
-
         public void Update(Usuario obj)
         {
             obj.Validar();

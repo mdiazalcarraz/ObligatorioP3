@@ -135,6 +135,7 @@ namespace ObligatorioP3.Controllers
             }
             catch
             {
+                ViewBag.Mensaje = "Ocurrió un error, no se pudo realizar accion";
                 return View();
             }
         }
