@@ -35,6 +35,7 @@ namespace ObligatorioP3.Controllers
         public ActionResult Index()
         {
             List<Articulo> articulos = CUListado.ObtenerListado();
+            articulos = articulos.OrderBy(u => u.Nombre).ToList();
             return View(articulos);
         }
 
