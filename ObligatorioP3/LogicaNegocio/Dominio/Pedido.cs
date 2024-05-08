@@ -10,8 +10,7 @@ namespace LogicaNegocio.Dominio
     public class Pedido : IValidable
     {
         public static int? Iva = null;
-
-        public static string Estado = "En proceso";
+        public string Estado { get; set; }
         public int Id { get; set; }
         public DateTime FechaPedido { get; set; }
         public Cliente? Cliente { get; set; }
@@ -21,7 +20,7 @@ namespace LogicaNegocio.Dominio
 
         public Pedido()
         {
-            
+            Estado = "En proceso";
             
         }
 

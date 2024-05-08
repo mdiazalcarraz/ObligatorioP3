@@ -1,5 +1,6 @@
 ﻿using LogicaDatos.Repositorios;
 using LogicaNegocio.Dominio;
+using LogicaNegocio.InterfacesRepositorios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,15 +11,15 @@ namespace LogicaAplicacion.CasosUsoPedido
 {
     public   class CUAltaPedido
     {
-        public RepositorioPedidos RepoPedido { get; set; }
+        public IRepositorioPedido Repo { get; set; }
 
-        public CUAltaPedido()
+        public CUAltaPedido(IRepositorioPedido repo)
         {
-            RepoPedido = new RepositorioPedidos();
+            Repo = repo;
         }
         public void Alta(Pedido pedido)
         {
-            RepoPedido.Add(pedido);
+            Repo.Add(pedido);
             
         }
     }

@@ -9,6 +9,7 @@ namespace LogicaNegocio.Dominio
 {
     public class Cliente : IValidable
     {
+        public int Id { get; set; }
         public string RazonSocial { get; set; }
         public int Rut { get; set; }
         public Direccion Direccion { get; set; }

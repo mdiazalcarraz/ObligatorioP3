@@ -30,13 +30,16 @@ namespace LogicaDatos.Repositorios
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			modelBuilder.Entity<Cliente>()
-				.HasKey(c => c.Rut);
+				.HasKey(c => c.Id);
 
 			modelBuilder.Entity<Articulo>()
 			    .HasKey(a => a.Id);
 
             modelBuilder.Entity<Usuario>()
                 .HasKey(u => u.Id);
+
+            modelBuilder.Entity<Pedido>()
+                .HasKey(p => p.Id);
 
             base.OnModelCreating(modelBuilder);
 		}
