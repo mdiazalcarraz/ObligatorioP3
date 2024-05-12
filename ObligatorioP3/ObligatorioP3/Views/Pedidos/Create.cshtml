@@ -13,6 +13,13 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
+                <label asp-for="Cliente" class="control-label"></label>
+                <select asp-for="Cliente" class="form-control" asp-items="@(new SelectList(ViewBag.Clientes, "Id", "Nombre"))">
+                    <option value="">Seleccione un Cliente</option>
+                </select>
+                <span asp-validation-for="Cliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="Estado" class="control-label"></label>
                 <input asp-for="Estado" class="form-control" />
                 <span asp-validation-for="Estado" class="text-danger"></span>
@@ -36,9 +43,12 @@
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
+        <br />
+        <span>@ViewBag.Mensaje</span>
+        <br />
     </div>
 </div>
-
+<br />
 <div>
     <a asp-action="Index">Back to List</a>
 </div>

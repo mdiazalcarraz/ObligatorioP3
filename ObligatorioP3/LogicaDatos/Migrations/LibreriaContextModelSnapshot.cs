@@ -54,22 +54,20 @@ namespace LogicaDatos.Migrations
 
             modelBuilder.Entity("LogicaNegocio.Dominio.Cliente", b =>
                 {
-                    b.Property<int>("Rut")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Rut"));
-
-                    b.Property<int>("DireccionId")
-                        .HasColumnType("int");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("RazonSocial")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Rut");
+                    b.Property<int>("Rut")
+                        .HasColumnType("int");
 
-                    b.HasIndex("DireccionId");
+                    b.HasKey("Id");
 
                     b.ToTable("Clientes");
                 });
@@ -90,6 +88,9 @@ namespace LogicaDatos.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("ClienteId")
+                        .HasColumnType("int");
+
                     b.Property<int>("DistanciaDeposito")
                         .HasColumnType("int");
 
@@ -97,6 +98,9 @@ namespace LogicaDatos.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ClienteId")
+                        .IsUnique();
 
                     b.ToTable("Direccion");
                 });
@@ -115,10 +119,13 @@ namespace LogicaDatos.Migrations
                     b.Property<int>("Cantidad")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PedidoId")
+                    b.Property<int>("PedidoId")
                         .HasColumnType("int");
 
                     b.Property<int>("PrecioUnitarioVigente")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PromocionId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -138,8 +145,12 @@ namespace LogicaDatos.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("ClienteRut")
+                    b.Property<int?>("ClienteId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("FechaPedido")
                         .HasColumnType("datetime2");
@@ -153,7 +164,7 @@ namespace LogicaDatos.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ClienteRut");
+                    b.HasIndex("ClienteId");
 
                     b.ToTable("Pedidos");
                 });
@@ -168,6 +179,10 @@ namespace LogicaDatos.Migrations
 
                     b.Property<int>("Descuento")
                         .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -202,15 +217,13 @@ namespace LogicaDatos.Migrations
                     b.ToTable("Usuarios");
                 });
 
-            modelBuilder.Entity("LogicaNegocio.Dominio.Cliente", b =>
+            modelBuilder.Entity("LogicaNegocio.Dominio.Direccion", b =>
                 {
-                    b.HasOne("LogicaNegocio.Dominio.Direccion", "Direccion")
-                        .WithMany()
-                        .HasForeignKey("DireccionId")
+                    b.HasOne("LogicaNegocio.Dominio.Cliente", null)
+                        .WithOne("Direccion")
+                        .HasForeignKey("LogicaNegocio.Dominio.Direccion", "ClienteId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Direccion");
                 });
 
             modelBuilder.Entity("LogicaNegocio.Dominio.Linea", b =>
@@ -221,20 +234,30 @@ namespace LogicaDatos.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("LogicaNegocio.Dominio.Pedido", null)
+                    b.HasOne("LogicaNegocio.Dominio.Pedido", "Pedido")
                         .WithMany("Lineas")
-                        .HasForeignKey("PedidoId");
+                        .HasForeignKey("PedidoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Articulo");
+
+                    b.Navigation("Pedido");
                 });
 
             modelBuilder.Entity("LogicaNegocio.Dominio.Pedido", b =>
                 {
                     b.HasOne("LogicaNegocio.Dominio.Cliente", "Cliente")
                         .WithMany()
-                        .HasForeignKey("ClienteRut");
+                        .HasForeignKey("ClienteId");
 
                     b.Navigation("Cliente");
+                });
+
+            modelBuilder.Entity("LogicaNegocio.Dominio.Cliente", b =>
+                {
+                    b.Navigation("Direccion")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("LogicaNegocio.Dominio.Pedido", b =>

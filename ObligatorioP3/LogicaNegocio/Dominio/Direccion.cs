@@ -14,6 +14,7 @@ namespace LogicaNegocio.Dominio
         public string Ciudad { get; set; }
         public int Numero { get; set; }
         public int DistanciaDeposito { get; set; }
+        public int ClienteId { get; set; }
 
         public Direccion()
         {

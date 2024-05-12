@@ -82,6 +82,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Lineas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGluZWFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Lineas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGluZWFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Lineas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGluZWFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Lineas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGluZWFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Lineas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGluZWFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Pedidos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -100,6 +120,38 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Pedidos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Promociones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Promociones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Promociones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Promocions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Promocions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Promocions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Promocions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Promocions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mathi/OneDrive/Escritorio/ORT/P3/Obligatorio1.2/ObligatorioP3/ObligatorioP3/Views/Shared/Error.cshtml]

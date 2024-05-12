@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CasosUso\NewFolder1\**" />
+    <Compile Remove="CasosUso\NewFolder\**" />
+    <EmbeddedResource Remove="CasosUso\NewFolder1\**" />
+    <EmbeddedResource Remove="CasosUso\NewFolder\**" />
+    <None Remove="CasosUso\NewFolder1\**" />
+    <None Remove="CasosUso\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="CasosUso\CasosUsoArticulo\CUBajaArticulo.cs" />
   </ItemGroup>
 

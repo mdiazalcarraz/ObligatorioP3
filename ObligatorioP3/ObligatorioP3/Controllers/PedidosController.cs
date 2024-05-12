@@ -7,151 +7,80 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LogicaDatos.Repositorios;
 using LogicaNegocio.Dominio;
+using LogicaAplicacion.InterfacesCU;
+using LogicaNegocio.ExcepcionesPropias;
+using LogicaAplicacion.CasosUso.CasosUsoPromocion;
 
 namespace ObligatorioP3.Controllers
 {
     public class PedidosController : Controller
     {
-        private readonly LibreriaContext _context;
+        public ICUListado<Pedido> CUListado { get; set; }
 
-        public PedidosController(LibreriaContext context)
+        public ICUAlta<Pedido> CUAlta { get; set; }
+
+        public ICUBuscarPorId<Pedido> CUBuscar { get; set; }
+
+        public ICUListado<Cliente> CUListadoClientes { get; set; }
+
+        public PedidosController(ICUListado<Pedido> cuListado, ICUAlta<Pedido> cuAlta, ICUBuscarPorId<Pedido> cUBuscar, ICUListado<Cliente> cUListadoClientes)
         {
-            _context = context;
+            CUListado = cuListado;
+            CUAlta = cuAlta;
+            CUBuscar = cUBuscar;
+            CUListadoClientes = cUListadoClientes;
         }
 
         // GET: Pedidos
-        public async Task<IActionResult> Index()
+        public ActionResult Index()
         {
-            return View(await _context.Pedidos.ToListAsync());
+            List<Pedido> Pedidos = CUListado.ObtenerListado();
+            return View(Pedidos);
         }
 
-        // GET: Pedidos/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var pedido = await _context.Pedidos
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (pedido == null)
-            {
-                return NotFound();
-            }
-
-            return View(pedido);
-        }
 
         // GET: Pedidos/Create
         public IActionResult Create()
         {
+            ViewBag.Clientes = CUListadoClientes.ObtenerListado();
             return View();
         }
 
         // POST: Pedidos/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Estado,Id,FechaPedido,Total,Tipo")] Pedido pedido)
+        public ActionResult Create(Pedido nuevo)
         {
-            if (ModelState.IsValid)
+            try
             {
-                _context.Add(pedido);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(pedido);
-        }
-
-        // GET: Pedidos/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var pedido = await _context.Pedidos.FindAsync(id);
-            if (pedido == null)
-            {
-                return NotFound();
-            }
-            return View(pedido);
-        }
-
-        // POST: Pedidos/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Estado,Id,FechaPedido,Total,Tipo")] Pedido pedido)
-        {
-            if (id != pedido.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
+                if (ModelState.IsValid)
                 {
-                    _context.Update(pedido);
-                    await _context.SaveChangesAsync();
+                    CUAlta.Alta(nuevo);
+                    return RedirectToAction(nameof(Index));
                 }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!PedidoExists(pedido.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
             }
-            return View(pedido);
+            catch (DatosInvalidosException ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = "Ocurrió un error inesperado. No se hizo el alta de Pedido";
+            }
+
+            return View(nuevo);
         }
 
-        // GET: Pedidos/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
 
-            var pedido = await _context.Pedidos
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (pedido == null)
-            {
-                return NotFound();
-            }
-
-            return View(pedido);
-        }
-
-        // POST: Pedidos/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var pedido = await _context.Pedidos.FindAsync(id);
-            if (pedido != null)
-            {
-                _context.Pedidos.Remove(pedido);
-            }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
 
         private bool PedidoExists(int id)
         {
-            return _context.Pedidos.Any(e => e.Id == id);
+            Pedido p = CUBuscar.Buscar(id);
+
+            if (p == null) return false;
+
+            return true;
         }
     }
 }

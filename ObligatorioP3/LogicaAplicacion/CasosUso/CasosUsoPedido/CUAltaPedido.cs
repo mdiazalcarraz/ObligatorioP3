@@ -1,4 +1,5 @@
-﻿using LogicaDatos.Repositorios;
+﻿using LogicaAplicacion.InterfacesCU;
+using LogicaDatos.Repositorios;
 using LogicaNegocio.Dominio;
 using LogicaNegocio.InterfacesRepositorios;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.CasosUsoPedido
 {
-    public   class CUAltaPedido
+    public   class CUAltaPedido : ICUAlta<Pedido>
     {
         public IRepositorioPedido Repo { get; set; }
 

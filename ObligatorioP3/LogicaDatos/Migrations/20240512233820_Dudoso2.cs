@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace LogicaDatos.Migrations
 {
     /// <inheritdoc />
-    public partial class Actializada3 : Migration
+    public partial class Dudoso2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -29,19 +29,17 @@ namespace LogicaDatos.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Direccion",
+                name: "Clientes",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Calle = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Ciudad = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Numero = table.Column<int>(type: "int", nullable: false),
-                    DistanciaDeposito = table.Column<int>(type: "int", nullable: false)
+                    RazonSocial = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Rut = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Direccion", x => x.Id);
+                    table.PrimaryKey("PK_Clientes", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -50,7 +48,8 @@ namespace LogicaDatos.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Descuento = table.Column<int>(type: "int", nullable: false)
+                    Descuento = table.Column<int>(type: "int", nullable: false),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -74,21 +73,24 @@ namespace LogicaDatos.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Clientes",
+                name: "Direccion",
                 columns: table => new
                 {
-                    Rut = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    RazonSocial = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DireccionId = table.Column<int>(type: "int", nullable: false)
+                    Calle = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Ciudad = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Numero = table.Column<int>(type: "int", nullable: false),
+                    DistanciaDeposito = table.Column<int>(type: "int", nullable: false),
+                    ClienteId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Clientes", x => x.Rut);
+                    table.PrimaryKey("PK_Direccion", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Clientes_Direccion_DireccionId",
-                        column: x => x.DireccionId,
-                        principalTable: "Direccion",
+                        name: "FK_Direccion_Clientes_ClienteId",
+                        column: x => x.ClienteId,
+                        principalTable: "Clientes",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -99,8 +101,9 @@ namespace LogicaDatos.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Estado = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FechaPedido = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    ClienteRut = table.Column<int>(type: "int", nullable: true),
+                    ClienteId = table.Column<int>(type: "int", nullable: true),
                     Total = table.Column<int>(type: "int", nullable: false),
                     Tipo = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
@@ -108,10 +111,10 @@ namespace LogicaDatos.Migrations
                 {
                     table.PrimaryKey("PK_Pedidos", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Pedidos_Clientes_ClienteRut",
-                        column: x => x.ClienteRut,
+                        name: "FK_Pedidos_Clientes_ClienteId",
+                        column: x => x.ClienteId,
                         principalTable: "Clientes",
-                        principalColumn: "Rut");
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -123,7 +126,8 @@ namespace LogicaDatos.Migrations
                     ArticuloId = table.Column<int>(type: "int", nullable: false),
                     Cantidad = table.Column<int>(type: "int", nullable: false),
                     PrecioUnitarioVigente = table.Column<int>(type: "int", nullable: false),
-                    PedidoId = table.Column<int>(type: "int", nullable: true)
+                    PedidoId = table.Column<int>(type: "int", nullable: false),
+                    PromocionId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -138,13 +142,15 @@ namespace LogicaDatos.Migrations
                         name: "FK_Lineas_Pedidos_PedidoId",
                         column: x => x.PedidoId,
                         principalTable: "Pedidos",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Clientes_DireccionId",
-                table: "Clientes",
-                column: "DireccionId");
+                name: "IX_Direccion_ClienteId",
+                table: "Direccion",
+                column: "ClienteId",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_Lineas_ArticuloId",
@@ -157,14 +163,17 @@ namespace LogicaDatos.Migrations
                 column: "PedidoId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Pedidos_ClienteRut",
+                name: "IX_Pedidos_ClienteId",
                 table: "Pedidos",
-                column: "ClienteRut");
+                column: "ClienteId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Direccion");
+
             migrationBuilder.DropTable(
                 name: "Lineas");
 
@@ -182,9 +191,6 @@ namespace LogicaDatos.Migrations
 
             migrationBuilder.DropTable(
                 name: "Clientes");
-
-            migrationBuilder.DropTable(
-                name: "Direccion");
         }
     }
 }

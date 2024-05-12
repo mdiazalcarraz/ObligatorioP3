@@ -14,14 +14,15 @@ namespace LogicaNegocio.Dominio
         public int Id { get; set; }
         public DateTime FechaPedido { get; set; }
         public Cliente? Cliente { get; set; }
-        public List<Linea>? Lineas { get; set; }
+        public virtual List<Linea> Lineas { get; set; }
         public int Total { get; set; }
         public string Tipo { get; set; }   
 
         public Pedido()
         {
             Estado = "En proceso";
-            
+            FechaPedido = DateTime.Now;
+            Lineas = new List<Linea>();
         }
 
         public void Validar()

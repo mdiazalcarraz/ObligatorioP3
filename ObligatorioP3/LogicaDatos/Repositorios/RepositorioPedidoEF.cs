@@ -1,6 +1,7 @@
 ﻿using LogicaNegocio.Dominio;
 using LogicaNegocio.ExcepcionesPropias;
 using LogicaNegocio.InterfacesRepositorios;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +26,7 @@ namespace LogicaDatos.Repositorios
                 pedido.Validar();
                 if (FindById(pedido.Id) == null)
                 {
+                    pedido.Total = CalcularTotal();
                     Contexto.Pedidos.Add(pedido);
                     Contexto.SaveChanges();
                 }
@@ -34,7 +36,7 @@ namespace LogicaDatos.Repositorios
 
         public List<Pedido> FindAll() 
         {
-            return Contexto.Pedidos.ToList();
+            return Contexto.Pedidos.Include(p=>p.Lineas).ToList();
         }
 
         public void Remove(int id)
@@ -56,7 +58,7 @@ namespace LogicaDatos.Repositorios
 
         public Pedido FindById(int id)
         {
-            return Contexto.Pedidos
+            return Contexto.Pedidos.Include(p=>p.Lineas)
                  .Where(Pedido => Pedido.Id == id)
                  .SingleOrDefault();
         }
@@ -76,6 +78,11 @@ namespace LogicaDatos.Repositorios
             return Contexto.Pedidos
            .Where(pedido => pedido.Estado.Contains("Anulado"))
            .ToList();
+        }
+        public int CalcularTotal() 
+        {
+            int total = 0;
+            return total;
         }
     }
 }

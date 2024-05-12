@@ -1,9 +1,11 @@
-﻿using LogicaNegocio.InterfacesDominio;
+﻿using LogicaNegocio.ExcepcionesPropias;
+using LogicaNegocio.InterfacesDominio;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace LogicaNegocio.Dominio
 {
@@ -13,15 +15,13 @@ namespace LogicaNegocio.Dominio
         public string RazonSocial { get; set; }
         public int Rut { get; set; }
         public Direccion Direccion { get; set; }
-
         public Cliente()
         {
-            
         }
 
         public void Validar()
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrEmpty(RazonSocial)) { throw new DatosInvalidosException("Validaciones pendientes"); }
         }
     }
 }
