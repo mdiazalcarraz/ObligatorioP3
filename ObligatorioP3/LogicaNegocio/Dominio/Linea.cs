@@ -11,13 +11,15 @@ namespace LogicaNegocio.Dominio
     public class Linea : IValidable
     {
         public int Id { get; set; }
-        public Articulo Articulo { get; set; }
+
+        public int ArticuloId { get; set; }
+        [ForeignKey("ArticuloId")]
+        public virtual Articulo Articulo { get; set; }
+
         public int Cantidad { get; set; }
-        public int PrecioUnitarioVigente { get; set; }
         public int PedidoId { get; set; }
         [ForeignKey("PedidoId")]
-        public Pedido Pedido { get; set; }
-
+        public virtual Pedido Pedido { get; set; }
         public int PromocionId { get; set; }
 
         public Linea()
@@ -27,7 +29,7 @@ namespace LogicaNegocio.Dominio
 
         public void Validar()
         {
-            throw new NotImplementedException();
+            //
         }
     }
 }

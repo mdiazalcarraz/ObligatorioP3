@@ -10,6 +10,7 @@ using LogicaNegocio.Dominio;
 using LogicaAplicacion.InterfacesCU;
 using LogicaNegocio.ExcepcionesPropias;
 using LogicaAplicacion.CasosUso.CasosUsoPromocion;
+using System.Drawing.Drawing2D;
 
 namespace ObligatorioP3.Controllers
 {
@@ -21,14 +22,20 @@ namespace ObligatorioP3.Controllers
 
         public ICUBuscarPorId<Pedido> CUBuscar { get; set; }
 
+        public ICUListado<Promocion> CUListadoPromocion { get; set; }
+
+        public ICUListado<Articulo> CUListadoArticulo { get; set; }
+
         public ICUListado<Cliente> CUListadoClientes { get; set; }
 
-        public PedidosController(ICUListado<Pedido> cuListado, ICUAlta<Pedido> cuAlta, ICUBuscarPorId<Pedido> cUBuscar, ICUListado<Cliente> cUListadoClientes)
+        public PedidosController(ICUListado<Pedido> cuListado, ICUAlta<Pedido> cuAlta, ICUBuscarPorId<Pedido> cUBuscar, ICUListado<Cliente> cUListadoClientes, ICUListado<Promocion> cUListadoPromocion, ICUListado<Articulo> cUListadoArticulo)
         {
             CUListado = cuListado;
             CUAlta = cuAlta;
             CUBuscar = cUBuscar;
             CUListadoClientes = cUListadoClientes;
+            CUListadoPromocion = cUListadoPromocion;
+            CUListadoArticulo = cUListadoArticulo;
         }
 
         // GET: Pedidos
@@ -42,6 +49,8 @@ namespace ObligatorioP3.Controllers
         // GET: Pedidos/Create
         public IActionResult Create()
         {
+            ViewBag.Articulos = CUListadoArticulo.ObtenerListado();
+            ViewBag.Promociones = CUListadoPromocion.ObtenerListado();
             ViewBag.Clientes = CUListadoClientes.ObtenerListado();
             return View();
         }
@@ -50,15 +59,16 @@ namespace ObligatorioP3.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Pedido nuevo)
+        public ActionResult Create(PedidoViewModel pedidoViewModel)
         {
             try
             {
-                if (ModelState.IsValid)
-                {
-                    CUAlta.Alta(nuevo);
+                //if (ModelState.IsValid)
+                //{
+                    pedidoViewModel.Pedido.Lineas.Add(pedidoViewModel.Linea);
+                    CUAlta.Alta(pedidoViewModel.Pedido);
                     return RedirectToAction(nameof(Index));
-                }
+                //}
             }
             catch (DatosInvalidosException ex)
             {
@@ -69,7 +79,7 @@ namespace ObligatorioP3.Controllers
                 ViewBag.Mensaje = "Ocurrió un error inesperado. No se hizo el alta de Pedido";
             }
 
-            return View(nuevo);
+            return View(pedidoViewModel.Pedido);
         }
 
 

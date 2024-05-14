@@ -11,7 +11,6 @@ namespace LogicaNegocio.Dominio
     {
         public int Id { get; set; }
         public int Descuento { get; set; }
-
         public string Nombre { get; set; }
 
         public Promocion()

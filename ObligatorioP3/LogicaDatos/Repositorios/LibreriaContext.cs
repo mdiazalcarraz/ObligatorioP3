@@ -55,7 +55,6 @@ namespace LogicaDatos.Repositorios
             .WithOne()
             .HasForeignKey<Direccion>(d => d.ClienteId);
 
-            
             modelBuilder.Entity<Linea>()
               .HasOne(b => b.Pedido)
               .WithMany(r => r.Lineas)

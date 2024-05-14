@@ -43,9 +43,9 @@
                 @Html.DisplayFor(modelItem => item.Tipo)
             </td>
             <td>|
-                    <a asp-controller="Lineas" asp-action="Index" asp-route-id="@item.Id">Editar Lineas</a>
+                    <a asp-controller="Lineas" asp-action="Index" asp-route-id="@item.Id" asp-route-lineas="@item.Lineas">Editar Lineas</a> |
                 <a asp-action="AnularPedido" asp-route-id="@item.Id">Anular</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Delete" asp-route-id="@item.Id">Postear</a>
             </td>
         </tr>
 }

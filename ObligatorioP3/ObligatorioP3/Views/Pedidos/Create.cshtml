@@ -1,4 +1,4 @@
-﻿@model LogicaNegocio.Dominio.Pedido
+﻿@model LogicaNegocio.Dominio.PedidoViewModel
 
 @{
     ViewData["Title"] = "Create";
@@ -13,35 +13,71 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Cliente" class="control-label"></label>
-                <select asp-for="Cliente" class="form-control" asp-items="@(new SelectList(ViewBag.Clientes, "Id", "Nombre"))">
-                    <option value="">Seleccione un Cliente</option>
+                <label asp-for="Pedido.ClienteId" class="control-label"></label>
+                @if (ViewBag.Clientes != null)
+                {
+                    <select asp-for="Pedido.ClienteId" class="form-control" asp-items="@(new SelectList(ViewBag.Clientes, "Id", "RazonSocial"))">
+                        <option value="">Seleccione un Articulo</option>
+                    </select>
+                }
+                else
+                {
+                    <select asp-for="Pedido.ClienteId" class="form-control">
+                        <option value="">No hay Clientes Creados</option>
+                    </select>
+                }
+                <span asp-validation-for="Pedido.ClienteId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pedido.Tipo" class="control-label"></label>
+                <select asp-for="Pedido.Tipo" class="form-control">
+                    <option value="">Selecciona una opción</option>
+                    <option value="Pedido Comun">Pedido Comun</option>
+                    <option value="Pedido Express">Pedido Express</option>
                 </select>
-                <span asp-validation-for="Cliente" class="text-danger"></span>
+                <span asp-validation-for="Pedido.Tipo" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="Estado" class="control-label"></label>
-                <input asp-for="Estado" class="form-control" />
-                <span asp-validation-for="Estado" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="FechaPedido" class="control-label"></label>
-                <input asp-for="FechaPedido" class="form-control" />
-                <span asp-validation-for="FechaPedido" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Total" class="control-label"></label>
-                <input asp-for="Total" class="form-control" />
-                <span asp-validation-for="Total" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Tipo" class="control-label"></label>
-                <input asp-for="Tipo" class="form-control" />
-                <span asp-validation-for="Tipo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
+                <div class="form-group">
+                    <label asp-for="Linea.ArticuloId" class="control-label"></label>
+                    @if (ViewBag.Articulos != null)
+                    {
+                        <select asp-for="Linea.ArticuloId" class="form-control" asp-items="@(new SelectList(ViewBag.Articulos, "Id", "Nombre"))">
+                            <option value="">Seleccione un Articulo</option>
+                        </select>
+                    }
+                    else
+                    {
+                        <select asp-for="Linea.ArticuloId" class="form-control">
+                            <option value="">No hay Articulos disponibles</option>
+                        </select>
+                    }
+                </div>
+                <div class="form-group">
+                    <label asp-for="Linea.Cantidad" class="control-label"></label>
+                    <input asp-for="Linea.Cantidad" class="form-control" />
+                    <span asp-validation-for="Linea.Cantidad" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Linea.PromocionId" class="control-label"></label>
+                    @if (ViewBag.Promociones != null)
+                    {
+                        <select asp-for="Linea.PromocionId" class="form-control" asp-items="@(new SelectList(ViewBag.Promociones, "Id", "Nombre"))">
+                            <option value="">Seleccione un Articulo</option>
+                        </select>
+                    }
+                    else
+                    {
+                        <select asp-for="Linea.PromocionId" class="form-control">
+                            <option value="">No hay promociones disponibles</option>
+                        </select>
+                    }
+                    <span asp-validation-for="Linea.PromocionId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
         </form>
         <br />
         <span>@ViewBag.Mensaje</span>

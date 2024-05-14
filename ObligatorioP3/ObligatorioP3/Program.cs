@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using LogicaAplicacion.CasosUso.CasosUsoPromocion;
 using LogicaAplicacion.CasosUso.CasosUsoLinea;
 using LogicaAplicacion.CasosUso.CasosUsoPedido;
+using LogicaAplicacion.CasosUso.CasosUsoClientes;
 
 namespace ObligatorioP3
 {
@@ -43,15 +44,18 @@ namespace ObligatorioP3
             builder.Services.AddScoped<ICUBaja<Articulo>, CUBorrarArticulo>();
             builder.Services.AddScoped<ICUBuscarPorId<Articulo>, CUBuscarArticuloPorId>();
             builder.Services.AddScoped<ICUModificar<Usuario>, CUEditarUsuario>();
+            builder.Services.AddScoped<ICUListado<Pedido>, CUListarPedidos>();
+            builder.Services.AddScoped<ICUAlta<Pedido>, CUAltaPedido>();
+            builder.Services.AddScoped<ICUBuscarPorId<Pedido>, CUBuscarPedidoPorId>();
+            builder.Services.AddScoped<ICUListado<Cliente>, CUListarClientes>();
 
             builder.Services.AddScoped<IRepositorioUsuario, RepositorioUsuarioEF>();
             builder.Services.AddScoped<IRepositorioArticulo, RepositorioArticulosEF>();
             builder.Services.AddScoped<IRepositorioLinea, RepositorioLineaEF>();
+            builder.Services.AddScoped<IRepositorioCliente, RepositorioClienteEF>();
             builder.Services.AddScoped<IRepositorioPromocion, RepositorioPromocionEF>();
             builder.Services.AddScoped<IRepositorioPedido, RepositorioPedidoEF>();
-            builder.Services.AddScoped<ICUListado<Pedido>, CUListarPedidos>();
-            builder.Services.AddScoped<ICUAlta<Pedido>, CUAltaPedido>();
-            builder.Services.AddScoped<ICUBuscarPorId<Pedido>, CUBuscarPedidoPorId>();
+            
 
 
 

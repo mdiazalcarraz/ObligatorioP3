@@ -40,6 +40,7 @@ namespace ObligatorioP3.Controllers
         // GET: Lineas
         public ActionResult Index(int id)
         {
+            TempData["PedidoId"] = id;
             List<Linea> lineas = CUListado.ObtenerListado();
             lineas = lineas.Where(l => l.PedidoId == id).ToList();
             return View(lineas);
@@ -48,6 +49,7 @@ namespace ObligatorioP3.Controllers
         // GET: Lineas/Create
         public IActionResult Create()
         {
+            ViewBag.PedidoId = (int)TempData["PedidoId"];
             ViewBag.Articulos = CUListadoArticulo.ObtenerListado();
             ViewBag.Promociones = CUListadoPromocion.ObtenerListado();
             return View();
@@ -59,11 +61,11 @@ namespace ObligatorioP3.Controllers
         {
             try
             {
-                if (ModelState.IsValid)
-                {
+                //if (ModelState.IsValid)
+                //{
                     CUAlta.Alta(nueva);
                     return RedirectToAction(nameof(Index));
-                }
+                //}
             }
             catch (DatosInvalidosException ex)
             {

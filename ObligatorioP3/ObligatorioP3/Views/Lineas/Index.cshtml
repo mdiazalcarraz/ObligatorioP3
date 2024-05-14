@@ -3,6 +3,9 @@
 @{
     ViewData["Title"] = "Index";
 }
+@{
+    int pedidoId = ViewContext.HttpContext.Session.GetInt32("PedidoId") ?? 0;
+}
 
 <h1>Index</h1>
 
@@ -14,9 +17,6 @@
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Cantidad)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PrecioUnitarioVigente)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Pedido)
@@ -34,17 +34,12 @@
                 @Html.DisplayFor(modelItem => item.Cantidad)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PrecioUnitarioVigente)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Pedido.Estado)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.PromocionId)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>

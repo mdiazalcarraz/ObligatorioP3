@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.CasosUso.CasosUsoClientes
 {
-    internal class CUListarClientes : ICUListado<Cliente>
+    public class CUListarClientes : ICUListado<Cliente>
     {
         public IRepositorioCliente Repo { get; set; }
 

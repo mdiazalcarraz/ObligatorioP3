@@ -122,9 +122,6 @@ namespace LogicaDatos.Migrations
                     b.Property<int>("PedidoId")
                         .HasColumnType("int");
 
-                    b.Property<int>("PrecioUnitarioVigente")
-                        .HasColumnType("int");
-
                     b.Property<int>("PromocionId")
                         .HasColumnType("int");
 
@@ -145,7 +142,7 @@ namespace LogicaDatos.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("ClienteId")
+                    b.Property<int>("ClienteId")
                         .HasColumnType("int");
 
                     b.Property<string>("Estado")
@@ -159,7 +156,7 @@ namespace LogicaDatos.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Total")
+                    b.Property<int?>("Total")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -249,7 +246,9 @@ namespace LogicaDatos.Migrations
                 {
                     b.HasOne("LogicaNegocio.Dominio.Cliente", "Cliente")
                         .WithMany()
-                        .HasForeignKey("ClienteId");
+                        .HasForeignKey("ClienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Cliente");
                 });

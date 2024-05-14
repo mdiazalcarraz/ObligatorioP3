@@ -25,7 +25,7 @@ namespace LogicaDatos.Repositorios
                     linea.Validar();
                     if (FindById(linea.Id) == null)
                     {
-                    linea.PrecioUnitarioVigente = linea.Articulo.Precio;
+                    //linea.PrecioUnitarioVigente = linea.Articulo.Precio;
 
                     Contexto.Lineas.Add(linea);
                     Contexto.SaveChanges();

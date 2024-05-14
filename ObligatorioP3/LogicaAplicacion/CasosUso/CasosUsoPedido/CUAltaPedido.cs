@@ -21,7 +21,7 @@ namespace LogicaAplicacion.CasosUsoPedido
         public void Alta(Pedido pedido)
         {
             Repo.Add(pedido);
-            
+         
         }
     }
 }
