@@ -11,6 +11,15 @@ namespace LogicaNegocio.InterfacesRepositorios
     {
        void AnularPedido(int ID);
        List<Pedido> ListarPedidosAnulados();
-       void CalcularTotal(int id);
+
+        List<Linea> LineasFindAll();
+
+        void AddLinea(Linea linea);
+
+        public void RemoveLinea(int id);
+
+        public void UpdateLinea(Linea linea);
+
+        public Linea FindByIdLinea(int id);
     }
 }

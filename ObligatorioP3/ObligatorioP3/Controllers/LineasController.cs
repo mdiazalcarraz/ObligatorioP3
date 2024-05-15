@@ -70,15 +70,12 @@ namespace ObligatorioP3.Controllers
         {
             try
             {
-                //if (ModelState.IsValid)
-                //{
                     nueva.Articulo = CUBuscarArticulo.Buscar(nueva.ArticuloId);
                     nueva.Promocion = CUBuscarPromocion.Buscar(nueva.PromocionId);
                     CUAlta.Alta(nueva);
                     List<Linea> lineas = CUListado.ObtenerListado();
                     lineas = lineas.Where(l => l.PedidoId == nueva.PedidoId).ToList();
                     return RedirectToAction("Index", new { id = nueva.PedidoId, lineas = lineas });
-                //}
             }
             catch (DatosInvalidosException ex)
             {

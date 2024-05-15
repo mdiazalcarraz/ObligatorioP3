@@ -11,15 +11,15 @@ namespace LogicaAplicacion.CasosUso.CasosUsoLinea
 {
     public class CUListarLineas : ICUListado<Linea>
     {
-        public IRepositorioLinea Repo { get; set; }
+        public IRepositorioPedido Repo { get; set; }
 
-        public CUListarLineas(IRepositorioLinea repo)
+        public CUListarLineas(IRepositorioPedido repo)
         {
             Repo = repo;
         }
         public List<Linea> ObtenerListado()
         {
-            return Repo.FindAll();
+            return Repo.LineasFindAll();
         }
     }
 }

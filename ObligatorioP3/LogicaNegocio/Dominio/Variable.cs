@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace LogicaNegocio.Dominio
 {
-    public class Variables
+    public class Variable
     {
         public int Id { get; set; }
 
@@ -14,8 +15,12 @@ namespace LogicaNegocio.Dominio
 
         public double Valor { get; set; }
 
-        public Variables()
+        public Variable()
         { 
+        }
+        public void Validar()
+        {
+            // Pendiente
         }
     }
 }

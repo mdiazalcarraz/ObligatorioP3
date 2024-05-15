@@ -11,15 +11,15 @@ namespace LogicaAplicacion.CasosUso.CasosUsoLinea
 {
     public class CUBuscarLineaPorId : ICUBuscarPorId<Linea>
     {
-        public IRepositorioLinea Repo { get; set; }
+        public IRepositorioPedido Repo { get; set; }
 
-        public CUBuscarLineaPorId(IRepositorioLinea repo)
+        public CUBuscarLineaPorId(IRepositorioPedido repo)
         {
             Repo = repo;
         }
         public Linea Buscar(int id)
         {
-            return Repo.FindById(id);
+            return Repo.FindByIdLinea(id);
         }
     }
 }

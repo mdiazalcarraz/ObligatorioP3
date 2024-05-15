@@ -13,8 +13,8 @@ namespace LogicaNegocio.Dominio
 		public string Calle { get; set; }
         public string Ciudad { get; set; }
         public int Numero { get; set; }
-        public int DistanciaDeposito { get; set; }
-        public int ClienteId { get; set; }
+        public int DistanciaDepositoKM { get; set; }
+        public int? ClienteId { get; set; }
 
         public Direccion()
         {

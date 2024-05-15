@@ -13,11 +13,12 @@ namespace LogicaDatos.Repositorios
     {
         public DbSet<Articulo> Articulos { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
-        public DbSet<Direccion> Direccion { get; set; }
+        public DbSet<Direccion> Direcciones { get; set; }
         public DbSet<Linea> Lineas { get; set; }
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<Promocion> Promociones { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Variable> Variables { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
@@ -50,10 +51,14 @@ namespace LogicaDatos.Repositorios
             modelBuilder.Entity<Direccion>()
             .HasKey(d => d.Id);
 
+            modelBuilder.Entity<Variable>()
+            .HasKey(v => v.Id);
+
             modelBuilder.Entity<Cliente>()
-            .HasOne(c => c.Direccion)
-            .WithOne()
-            .HasForeignKey<Direccion>(d => d.ClienteId);
+               .HasOne(c => c.Direccion)
+               .WithMany() 
+               .HasForeignKey(c => c.DireccionId)
+               .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Linea>()
               .HasOne(b => b.Pedido)

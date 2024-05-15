@@ -24,7 +24,7 @@ namespace LogicaNegocio.Dominio
 
         public virtual Promocion Promocion { get; set; }
 
-        public virtual int SubTotal { get; set; }
+        public virtual double SubTotal { get; set; }
 
         public Linea()
         {

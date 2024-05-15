@@ -92,8 +92,7 @@ namespace ObligatorioP3.Controllers
         {
             try
             {
-                //if (ModelState.IsValid)
-                //{
+
                 pedidoViewModel.Linea.Articulo = CUBuscarArticulo.Buscar(pedidoViewModel.Linea.ArticuloId);
                 pedidoViewModel.Linea.Promocion = CUBuscarPromocion.Buscar(pedidoViewModel.Linea.PromocionId);
                 pedidoViewModel.Pedido.Cliente = CUBuscarCliente.Buscar(pedidoViewModel.Pedido.ClienteId);
@@ -102,7 +101,7 @@ namespace ObligatorioP3.Controllers
                 pedidoViewModel.Linea.Pedido = pedidoViewModel.Pedido;
                 CUAltaLinea.Alta(pedidoViewModel.Linea);
                 return RedirectToAction(nameof(Index));
-                //}
+
             }
             catch (DatosInvalidosException ex)
             {
@@ -126,7 +125,7 @@ namespace ObligatorioP3.Controllers
         [HttpPost]
         public IActionResult CalcularTotal(int id)
         {
-            CUAnularPedido.AnularPedido(id);
+            CUCalcularTotal.CalcularTotal(id);
             return RedirectToAction("Index");
         }
 

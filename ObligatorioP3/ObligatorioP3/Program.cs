@@ -12,6 +12,8 @@ using LogicaAplicacion.CasosUso.CasosUsoPromocion;
 using LogicaAplicacion.CasosUso.CasosUsoLinea;
 using LogicaAplicacion.CasosUso.CasosUsoPedido;
 using LogicaAplicacion.CasosUso.CasosUsoClientes;
+using LogicaAplicacion.CasosUso.CasosUsoVariable;
+using LogicaAplicacion.CasosUso.CasosUsoIva;
 
 namespace ObligatorioP3
 {
@@ -44,10 +46,13 @@ namespace ObligatorioP3
             builder.Services.AddScoped<ICUBaja<Articulo>, CUBorrarArticulo>();
             builder.Services.AddScoped<ICUBuscarPorId<Articulo>, CUBuscarArticuloPorId>();
             builder.Services.AddScoped<ICUModificar<Usuario>, CUEditarUsuario>();
+            builder.Services.AddScoped<ICUModificar<Variable>, CUEditarVariable>();
             builder.Services.AddScoped<ICUListado<Pedido>, CUListarPedidos>();
             builder.Services.AddScoped<ICUAlta<Pedido>, CUAltaPedido>();
             builder.Services.AddScoped<ICUBuscarPorId<Pedido>, CUBuscarPedidoPorId>();
+            builder.Services.AddScoped<ICUBuscarPorId<Variable>, CUBuscarVariablePorId>();
             builder.Services.AddScoped<ICUListado<Cliente>, CUListarClientes>();
+            builder.Services.AddScoped<ICUListado<Variable>, CUListarVariables>();
             builder.Services.AddScoped<ICUBuscarPorId<Cliente>, CUBuscarClientePorId>();
             builder.Services.AddScoped<ICUListarPedidosAnulados, CUListarPedidosAnulados>();
             builder.Services.AddScoped<ICUAnularPedido, CUAnularPedido>();
@@ -55,10 +60,10 @@ namespace ObligatorioP3
 
             builder.Services.AddScoped<IRepositorioUsuario, RepositorioUsuarioEF>();
             builder.Services.AddScoped<IRepositorioArticulo, RepositorioArticulosEF>();
-            builder.Services.AddScoped<IRepositorioLinea, RepositorioLineaEF>();
             builder.Services.AddScoped<IRepositorioCliente, RepositorioClienteEF>();
             builder.Services.AddScoped<IRepositorioPromocion, RepositorioPromocionEF>();
             builder.Services.AddScoped<IRepositorioPedido, RepositorioPedidoEF>();
+            builder.Services.AddScoped<IRepositorioVariable, RepositorioVariableEF>();
 
 
 

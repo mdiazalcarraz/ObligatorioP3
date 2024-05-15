@@ -19,31 +19,32 @@ namespace LogicaDatos.Repositorios
                 Contexto = contexto;
             }
 
-            public void Add(Linea linea)
+        public void Add(Linea linea)
+        {
+            if (linea != null)
             {
-                if (linea != null)
+                linea.Validar();
+                if (FindById(linea.Id) == null)
                 {
-                    linea.Validar();
-                    if (FindById(linea.Id) == null)
-                    {
                     linea.SubTotal = linea.Articulo.Precio * linea.Cantidad * (1 - (linea.Promocion.Descuento / 100));
 
-                    if (linea.Pedido == null) 
+                    if (linea.Pedido == null)
                     {
                         Pedido pedido = Contexto.Pedidos.Find(linea.PedidoId);
                         pedido.Lineas.Add(linea);
                         Contexto.SaveChanges();
-                    } else 
+                    }
+                    else
                     {
                         linea.Pedido.Lineas.Add(linea);
                         Contexto.SaveChanges();
                     }
                 }
-                    else { throw new DatosInvalidosException("La linea no pudo ser creada"); }
-                }
+                else { throw new DatosInvalidosException("La linea no pudo ser creada"); }
             }
+        }
 
-            public List<Linea> FindAll()
+        public List<Linea> FindAll()
             {
                 return Contexto.Lineas
                 .Include(l => l.Articulo)

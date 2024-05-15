@@ -11,7 +11,7 @@ namespace LogicaNegocio.Dominio
 {
     public class Pedido : IValidable
     {
-        public int? Iva {  get; set; }
+        public double? Iva {  get; set; }
         public string? Estado { get; set; }
         public int Id { get; set; }
         public DateTime FechaPedido { get; set; }
@@ -20,7 +20,7 @@ namespace LogicaNegocio.Dominio
         public int ClienteId { get; set; } 
         public virtual Cliente? Cliente { get; set; }
         public virtual List<Linea>? Lineas { get; set; }
-        public int? Total { get; set; }
+        public double? Total { get; set; }
         public string Tipo { get; set; }   
 
         public Pedido()

@@ -11,15 +11,21 @@ namespace LogicaAplicacion.CasosUso.CasosUsoLinea
 {
     public class CUAltaLinea : ICUAlta<Linea>
     {
-        public IRepositorioLinea Repo { get; set; }
+        public IRepositorioPedido Repo { get; set; }
 
-        public CUAltaLinea(IRepositorioLinea repo)
+        public CUAltaLinea(IRepositorioPedido repo)
         {
             Repo = repo;
         }
         public void Alta(Linea linea)
         {
-            Repo.Add(linea);
+            linea.SubTotal = linea.Articulo.Precio * linea.Cantidad * (1 - (linea.Promocion.Descuento / 100));
+            if (linea.Pedido == null)
+            {
+                Pedido pedido = Repo.FindById(linea.PedidoId);
+                linea.Pedido = pedido;
+            }
+            Repo.AddLinea(linea);
         }
     }
 }

@@ -11,15 +11,15 @@ namespace LogicaAplicacion.CasosUso.CasosUsoLinea
 {
     public class CUBorrarLinea : ICUBaja<Linea>
     {
-        public IRepositorioLinea Repo { get; set; }
+        public IRepositorioPedido Repo { get; set; }
 
-        public CUBorrarLinea(IRepositorioLinea repo)
+        public CUBorrarLinea(IRepositorioPedido repo)
         {
             Repo = repo;
         }
         public void Baja(int id)
         {
-            Repo.Remove(id);
+            Repo.RemoveLinea(id);
         }
     }
 }
