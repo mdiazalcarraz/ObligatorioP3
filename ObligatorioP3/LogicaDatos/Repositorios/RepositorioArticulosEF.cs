@@ -55,10 +55,10 @@ namespace LogicaDatos.Repositorios
             Contexto.SaveChanges();
         }
 
-        public Articulo FindById(int codigo)
+        public Articulo FindById(int Id)
         {
             return Contexto.Articulos
-                 .Where(Articulo => Articulo.Codigo == codigo)
+                 .Where(Articulo => Articulo.Id == Id)
                  .SingleOrDefault();
         }
     }

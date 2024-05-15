@@ -125,11 +125,16 @@ namespace LogicaDatos.Migrations
                     b.Property<int>("PromocionId")
                         .HasColumnType("int");
 
+                    b.Property<int>("SubTotal")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("ArticuloId");
 
                     b.HasIndex("PedidoId");
+
+                    b.HasIndex("PromocionId");
 
                     b.ToTable("Lineas");
                 });
@@ -146,11 +151,16 @@ namespace LogicaDatos.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Estado")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("FechaPedido")
                         .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaPrometida")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("Iva")
+                        .HasColumnType("int");
 
                     b.Property<string>("Tipo")
                         .IsRequired()
@@ -237,9 +247,17 @@ namespace LogicaDatos.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("LogicaNegocio.Dominio.Promocion", "Promocion")
+                        .WithMany()
+                        .HasForeignKey("PromocionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Articulo");
 
                     b.Navigation("Pedido");
+
+                    b.Navigation("Promocion");
                 });
 
             modelBuilder.Entity("LogicaNegocio.Dominio.Pedido", b =>

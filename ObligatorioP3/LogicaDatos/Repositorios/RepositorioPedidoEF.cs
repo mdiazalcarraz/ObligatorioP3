@@ -1,5 +1,6 @@
 ﻿using LogicaNegocio.Dominio;
 using LogicaNegocio.ExcepcionesPropias;
+using LogicaNegocio.InterfacesDominio;
 using LogicaNegocio.InterfacesRepositorios;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -26,17 +27,16 @@ namespace LogicaDatos.Repositorios
                 pedido.Validar();
                 if (FindById(pedido.Id) == null)
                 {
-                    pedido.Total = CalcularTotal();
                     Contexto.Pedidos.Add(pedido);
                     Contexto.SaveChanges();
                 }
-                else { throw new DatosInvalidosException("El pedido ya fue creado"); }
+                else { throw new DatosInvalidosException("El pedido no pudo ser creado"); }
             }
         }
 
-        public List<Pedido> FindAll() 
+        public List<Pedido> FindAll()
         {
-            return Contexto.Pedidos.Include(p=>p.Lineas).ToList();
+            return Contexto.Pedidos.Include(l => l.Cliente).Include(p => p.Lineas).ToList();
         }
 
         public void Remove(int id)
@@ -58,7 +58,7 @@ namespace LogicaDatos.Repositorios
 
         public Pedido FindById(int id)
         {
-            return Contexto.Pedidos.Include(p=>p.Lineas)
+            return Contexto.Pedidos.Include(p => p.Lineas)
                  .Where(Pedido => Pedido.Id == id)
                  .SingleOrDefault();
         }
@@ -70,6 +70,7 @@ namespace LogicaDatos.Repositorios
             {
                 pedido.Estado = "Anulado";
                 Contexto.Update(pedido);
+                Contexto.SaveChanges();
             }
             else { throw new DatosInvalidosException("No se logro encontrar el pedido"); }
         }
@@ -79,10 +80,41 @@ namespace LogicaDatos.Repositorios
            .Where(pedido => pedido.Estado.Contains("Anulado"))
            .ToList();
         }
-        public int CalcularTotal() 
+        public void CalcularTotal(int id)
         {
-            int total = 0;
-            return total;
+            Pedido pedido = Contexto.Pedidos.Find(id);
+            double sumaLineas = 0;
+            double difPorTipo = 0;
+            TimeSpan diferenciaFechasPedido = pedido.FechaPrometida - pedido.FechaPedido;
+
+            if (pedido.Lineas != null && pedido.Lineas.Any())
+            {
+                sumaLineas = pedido.Lineas.Sum(linea => linea.SubTotal);
+            }
+            else
+            {
+                sumaLineas = 0;
+            }
+            if (pedido.Tipo == "Pedido Comun") 
+            {   
+                if (pedido.Cliente.Direccion.DistanciaDeposito > 100) 
+                {
+                    difPorTipo = 1.05;
+                }
+            } else if (pedido.Tipo == "Pedido Express") 
+            {
+                if ((int)diferenciaFechasPedido.TotalDays == 0)
+                {
+                    difPorTipo = 1.15;
+                } else
+                {
+                    difPorTipo = 1.10;
+                }
+            }
+            //pedido.Iva = IVA;
+            //pedido.Total = sumaLineas * difPorTipo * IVA;
+            Contexto.Update(pedido);
+            Contexto.SaveChanges();
         }
     }
 }

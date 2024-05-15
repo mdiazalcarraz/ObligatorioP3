@@ -7,144 +7,228 @@
       "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\lineas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\lineas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\lineas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\lineas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\controllers\\lineascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\controllers\\lineascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\lineas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\lineas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\dominio\\linea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\linea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicadatos\\repositorios\\repositoriolineaef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\repositoriolineaef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusolinea\\cualtalinea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusolinea\\cualtalinea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\pedidos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\pedidos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\interfacesrepositorios\\irepositoriolinea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositoriolinea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicadatos\\repositorios\\repositoriopedidoef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\repositoriopedidoef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\controllers\\promocionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\controllers\\promocionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\cualtapedidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\cualtapedidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\cualtapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\cualtapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240514011537_nuevadudoooso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LogicaDatos\\Migrations\\20240514011537_nuevadudoooso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\dominio\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicadatos\\repositorios\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\dominio\\pedidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\pedidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\interfacesrepositorios\\irepositoriopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositoriopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\interfacesrepositorios\\irepositoriocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositoriocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusoclientes\\culistarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusoclientes\\culistarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\articulos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\articulos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\articulos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\articulos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\dominio\\promocion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\promocion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\promociones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\promociones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\culistarpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\culistarpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\promociones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\promociones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicadatos\\repositorios\\repositoriolineaef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\repositoriolineaef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusodireccion\\cualtadireccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusodireccion\\cualtadireccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusoiva\\cueditarvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusoiva\\cueditarvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\dominio\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\pedidos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\pedidos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240515023434_NuevaMejorada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LogicaDatos\\Migrations\\20240515023434_NuevaMejorada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\controllers\\lineascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\controllers\\lineascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicadatos\\repositorios\\repositoriopedidoef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\repositoriopedidoef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\dominio\\pedidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\pedidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicadatos\\repositorios\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicadatos\\repositorios\\repositorioarticulosef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\repositorioarticulosef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\dominio\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\interfacesrepositorios\\irepositoriopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositoriopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\dominio\\linea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\linea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\interfacescu\\icucalculartotal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\interfacescu\\icucalculartotal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\cucalculartotal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\cucalculartotal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\cuanularpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\cuanularpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\interfacescu\\icuanularpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\interfacescu\\icuanularpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\interfacescu\\icubaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\interfacescu\\icubaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopromocion\\cubuscarpromocionporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopromocion\\cubuscarpromocionporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\cubuscarpedidoporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\cubuscarpedidoporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\lineas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\lineas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\culistarpedidosanulados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\culistarpedidosanulados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\interfacescu\\iculistarpedidosanulados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\interfacescu\\iculistarpedidosanulados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\culistarpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\culistarpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\controllers\\promocionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\controllers\\promocionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\articulos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\articulos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\cualtapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\cualtapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\interfacesrepositorios\\irepositoriolinea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositoriolinea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\lineas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\lineas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\dominio\\promocion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\promocion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusoclientes\\cubuscarclienteporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusoclientes\\cubuscarclienteporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusoclientes\\culistarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusoclientes\\culistarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusodireccion\\buscardireccionporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusodireccion\\buscardireccionporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240514225240_Dudoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LogicaDatos\\Migrations\\20240514225240_Dudoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusolinea\\cubuscarlineaporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusolinea\\cubuscarlineaporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\lineas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\lineas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusolinea\\cualtalinea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusolinea\\cualtalinea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\cualtapedidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\cualtapedidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\interfacesrepositorios\\irepositoriocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositoriocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\articulos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\articulos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\cubuscarpedidoporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\cubuscarpedidoporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -159,10 +243,6 @@
       "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\promociones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\promociones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusolinea\\culistarlineas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusolinea\\culistarlineas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -171,24 +251,8 @@
       "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\articulos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240512220226_Nuevodudoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LogicaDatos\\Migrations\\20240512220226_Nuevodudoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusodireccion\\buscardireccionporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusodireccion\\buscardireccionporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusodireccion\\cualtadireccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusodireccion\\cualtadireccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopromocion\\buscarpromocionporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopromocion\\buscarpromocionporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusoarticulo\\culistaarticuloorden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -243,10 +307,6 @@
       "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusousuario\\cualtausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\promociones\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\promociones\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -255,16 +315,8 @@
       "RelativeMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositoriopromocion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\cucalculartotal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\cucalculartotal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\interfacescu\\iculoginusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\interfacescu\\iculoginusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\cuanularpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\cuanularpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95B6799D-89BC-4B97-8ED2-E9519745B0B8}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicadatos\\repositorios\\repositoriousuarioef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -277,22 +329,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\casosuso\\casosusopedido\\culistarpedidosanulados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\casosusopedido\\culistarpedidosanulados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\interfacescu\\icubaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\interfacescu\\icubaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\interfacescu\\iculistarpedidosanulados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\interfacescu\\iculistarpedidosanulados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicaaplicacion\\interfacescu\\icuanularpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56E13D-639E-42D8-8F80-DCFA80F29541}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\interfacescu\\icuanularpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18CC50AF-C5DE-4C54-AB4E-E9184F63902A}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\logicanegocio\\interfacesrepositorios\\irepositorioarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -341,10 +377,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\articulos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\articulos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|solutionrelative:obligatoriop3\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{270EBD50-FC5C-4354-83B3-DF94CF7FBD64}|ObligatorioP3\\ObligatorioP3.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\obligatoriop3\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -414,7 +446,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -442,119 +474,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PromocionesController.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\PromocionesController.cs",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Controllers\\PromocionesController.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\PromocionesController.cs",
-              "RelativeToolTip": "ObligatorioP3\\Controllers\\PromocionesController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowDAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T22:04:40.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IRepositorioLinea.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioLinea.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioLinea.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioLinea.cs",
-              "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioLinea.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T19:02:14.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RepositorioLineaEF.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\RepositorioLineaEF.cs",
-              "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\RepositorioLineaEF.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\RepositorioLineaEF.cs",
-              "RelativeToolTip": "LogicaDatos\\Repositorios\\RepositorioLineaEF.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAkwBcAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T19:01:16.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Lineas\\Create.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Lineas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Lineas\\Create.cshtml",
-              "RelativeToolTip": "ObligatorioP3\\Views\\Lineas\\Create.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAABlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T20:05:10.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Pedidos\\Create.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Pedidos\\Create.cshtml",
               "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Pedidos\\Create.cshtml",
               "RelativeToolTip": "ObligatorioP3\\Views\\Pedidos\\Create.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAFEAAAAHAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwDMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-12T23:39:35.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LineasController.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\LineasController.cs",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Controllers\\LineasController.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\LineasController.cs",
-              "RelativeToolTip": "ObligatorioP3\\Controllers\\LineasController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAIwEAAAAATAAAA",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Program.cs",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Program.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Program.cs",
+              "RelativeToolTip": "ObligatorioP3\\Program.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:13:44.322Z",
+              "WhenOpened": "2024-04-28T00:20:25.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Clientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Clientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Clientes\\Create.cshtml",
+              "RelativeToolTip": "ObligatorioP3\\Views\\Clientes\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T23:01:06.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CUAltaLinea.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUAltaLinea.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUAltaLinea.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUAltaLinea.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUAltaLinea.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAmwBUAAAAMAAAA",
+              "Title": "Variables.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Variables.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\Variables.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Variables.cs",
+              "RelativeToolTip": "LogicaNegocio\\Dominio\\Variables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:30:08.937Z",
+              "WhenOpened": "2024-05-15T02:06:00.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CUEditarVariable.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoIva\\CUEditarVariable.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoIva\\CUEditarVariable.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoIva\\CUEditarVariable.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoIva\\CUEditarVariable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:11:08.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CUAltaDireccion.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\CUAltaDireccion.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\CUAltaDireccion.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\CUAltaDireccion.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\CUAltaDireccion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T21:31:49.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "RepositorioLineaEF.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\RepositorioLineaEF.cs",
+              "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\RepositorioLineaEF.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\RepositorioLineaEF.cs",
+              "RelativeToolTip": "LogicaDatos\\Repositorios\\RepositorioLineaEF.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAswCcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T19:01:16.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Lineas\\Index.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Lineas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Lineas\\Index.cshtml",
-              "RelativeToolTip": "ObligatorioP3\\Views\\Lineas\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Promociones\\Index.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Promociones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Promociones\\Index.cshtml",
+              "RelativeToolTip": "ObligatorioP3\\Views\\Promociones\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T23:32:18.937Z",
+              "WhenOpened": "2024-05-12T20:07:23.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Lineas\\Delete.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Lineas\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Lineas\\Delete.cshtml",
-              "RelativeToolTip": "ObligatorioP3\\Views\\Lineas\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Promociones\\Create.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Promociones\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Promociones\\Create.cshtml",
+              "RelativeToolTip": "ObligatorioP3\\Views\\Promociones\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T20:05:52.548Z",
+              "WhenOpened": "2024-05-12T19:35:43.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Cliente.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\Cliente.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Cliente.cs",
+              "RelativeToolTip": "LogicaNegocio\\Dominio\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T00:55:10.803Z",
               "EditorCaption": ""
             },
             {
@@ -572,59 +617,371 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Pedidos\\Index.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Pedidos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Pedidos\\Index.cshtml",
-              "RelativeToolTip": "ObligatorioP3\\Views\\Pedidos\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAC0AAABqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T21:00:19.588Z",
+              "DocumentIndex": 19,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Pedido.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\Pedido.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Pedido.cs",
+              "RelativeToolTip": "LogicaNegocio\\Dominio\\Pedido.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T01:05:44.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
+              "Title": "PedidoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\PedidoViewModel.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\PedidoViewModel.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\PedidoViewModel.cs",
+              "RelativeToolTip": "LogicaNegocio\\Dominio\\PedidoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:50:27.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LibreriaContext.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\LibreriaContext.cs",
+              "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\LibreriaContext.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\LibreriaContext.cs",
+              "RelativeToolTip": "LogicaDatos\\Repositorios\\LibreriaContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T21:54:06.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RepositorioArticulosEF.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\RepositorioArticulosEF.cs",
+              "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\RepositorioArticulosEF.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\RepositorioArticulosEF.cs",
+              "RelativeToolTip": "LogicaDatos\\Repositorios\\RepositorioArticulosEF.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:37:59.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Articulo.cs",
+              "RelativeToolTip": "LogicaNegocio\\Dominio\\Articulo.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwBoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T00:44:13.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "RepositorioPedidoEF.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\RepositorioPedidoEF.cs",
               "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\RepositorioPedidoEF.cs",
               "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\RepositorioPedidoEF.cs",
               "RelativeToolTip": "LogicaDatos\\Repositorios\\RepositorioPedidoEF.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBoAAAAQAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAIwCYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T23:01:23.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "20240515023434_NuevaMejorada.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240515023434_NuevaMejorada.cs",
+              "RelativeDocumentMoniker": "LogicaDatos\\Migrations\\20240515023434_NuevaMejorada.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240515023434_NuevaMejorada.cs",
+              "RelativeToolTip": "LogicaDatos\\Migrations\\20240515023434_NuevaMejorada.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:34:34.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "ObligatorioP3\\Controllers\\PedidosController.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAGgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T22:10:53.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LineasController.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\LineasController.cs",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Controllers\\LineasController.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\LineasController.cs",
+              "RelativeToolTip": "ObligatorioP3\\Controllers\\LineasController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAqwE8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T21:13:44.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IRepositorioPedido.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioPedido.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioPedido.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioPedido.cs",
+              "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioPedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T23:01:54.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Linea.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Linea.cs",
               "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\Linea.cs",
               "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Linea.cs",
               "RelativeToolTip": "LogicaNegocio\\Dominio\\Linea.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB8AAAAOAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T22:18:04.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Program.cs",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Program.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Program.cs",
-              "RelativeToolTip": "ObligatorioP3\\Program.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwC8AAAAAAAAA",
+              "DocumentIndex": 22,
+              "Title": "ICUCalcularTotal.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUCalcularTotal.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\InterfacesCU\\ICUCalcularTotal.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUCalcularTotal.cs",
+              "RelativeToolTip": "LogicaAplicacion\\InterfacesCU\\ICUCalcularTotal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T00:20:25.387Z",
+              "WhenOpened": "2024-05-15T01:05:27.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
+              "Title": "CUCalcularTotal.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUCalcularTotal.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUCalcularTotal.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUCalcularTotal.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUCalcularTotal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T19:39:31.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CUAnularPedido.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAnularPedido.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAnularPedido.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAnularPedido.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAnularPedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T23:26:45.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ICUAnularPedido.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUAnularPedido.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\InterfacesCU\\ICUAnularPedido.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUAnularPedido.cs",
+              "RelativeToolTip": "LogicaAplicacion\\InterfacesCU\\ICUAnularPedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T23:28:17.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Pedidos\\Index.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Pedidos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Pedidos\\Index.cshtml",
+              "RelativeToolTip": "ObligatorioP3\\Views\\Pedidos\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T21:00:19.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ObligatorioP3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T00:41:04.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "ObligatorioP3\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T23:44:08.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "ObligatorioP3\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T23:44:09.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Lineas\\Create.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Lineas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Lineas\\Create.cshtml",
+              "RelativeToolTip": "ObligatorioP3\\Views\\Lineas\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T20:05:10.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ICUBaja.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUBaja.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\InterfacesCU\\ICUBaja.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUBaja.cs",
+              "RelativeToolTip": "LogicaAplicacion\\InterfacesCU\\ICUBaja.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T00:59:51.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CUBuscarPromocionPorId.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\CUBuscarPromocionPorId.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\CUBuscarPromocionPorId.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\CUBuscarPromocionPorId.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\CUBuscarPromocionPorId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T20:35:26.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CUListarPedidos.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidos.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidos.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidos.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T23:48:51.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CUListarPedidosAnulados.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidosAnulados.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidosAnulados.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidosAnulados.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidosAnulados.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T23:45:00.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ICUListarPedidosAnulados.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUListarPedidosAnulados.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\InterfacesCU\\ICUListarPedidosAnulados.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUListarPedidosAnulados.cs",
+              "RelativeToolTip": "LogicaAplicacion\\InterfacesCU\\ICUListarPedidosAnulados.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T23:44:05.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PromocionesController.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\PromocionesController.cs",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Controllers\\PromocionesController.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\PromocionesController.cs",
+              "RelativeToolTip": "ObligatorioP3\\Controllers\\PromocionesController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAmwDAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T22:04:40.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Index.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Articulos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Index.cshtml",
+              "RelativeToolTip": "ObligatorioP3\\Views\\Articulos\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T00:51:26.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ArticulosController.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\ArticulosController.cs",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Controllers\\ArticulosController.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\ArticulosController.cs",
+              "RelativeToolTip": "ObligatorioP3\\Controllers\\ArticulosController.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAmwCQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T01:23:22.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "CUAltaPedido.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAltaPedido.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAltaPedido.cs",
@@ -637,46 +994,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PedidosController.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\PedidosController.cs",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Controllers\\PedidosController.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\PedidosController.cs",
-              "RelativeToolTip": "ObligatorioP3\\Controllers\\PedidosController.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAYwEQAAAAUAAAA",
+              "DocumentIndex": 39,
+              "Title": "IRepositorioLinea.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioLinea.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioLinea.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioLinea.cs",
+              "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioLinea.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T22:10:53.722Z",
+              "WhenOpened": "2024-05-12T19:02:14.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CUAltaPedidoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAltaPedidoViewModel.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAltaPedidoViewModel.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAltaPedidoViewModel.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAltaPedidoViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T01:23:19.619Z",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Lineas\\Index.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Lineas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Lineas\\Index.cshtml",
+              "RelativeToolTip": "ObligatorioP3\\Views\\Lineas\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T23:32:18.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20240514011537_nuevadudoooso.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240514011537_nuevadudoooso.cs",
-              "RelativeDocumentMoniker": "LogicaDatos\\Migrations\\20240514011537_nuevadudoooso.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240514011537_nuevadudoooso.cs",
-              "RelativeToolTip": "LogicaDatos\\Migrations\\20240514011537_nuevadudoooso.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "DocumentIndex": 43,
+              "Title": "Promocion.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Promocion.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\Promocion.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Promocion.cs",
+              "RelativeToolTip": "LogicaNegocio\\Dominio\\Promocion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T01:15:37.541Z",
+              "WhenOpened": "2024-05-09T00:02:55.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 42,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "ObligatorioP3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "ObligatorioP3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AQIAAFMFAAAAAAAAAAAcwGQFAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-14T23:16:40.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "ObligatorioP3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeToolTip": "ObligatorioP3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ViewState": "AQIAAKMPAAAAAAAAAAAmwLUPAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-14T23:16:49.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CUBuscarClientePorId.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoClientes\\CUBuscarClientePorId.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoClientes\\CUBuscarClientePorId.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoClientes\\CUBuscarClientePorId.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoClientes\\CUBuscarClientePorId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:53:28.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Controllers\\ClientesController.cs",
@@ -689,85 +1085,97 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "PedidoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\PedidoViewModel.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\PedidoViewModel.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\PedidoViewModel.cs",
-              "RelativeToolTip": "LogicaNegocio\\Dominio\\PedidoViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
+              "DocumentIndex": 47,
+              "Title": "BuscarDireccionPorId.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\BuscarDireccionPorId.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\BuscarDireccionPorId.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\BuscarDireccionPorId.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\BuscarDireccionPorId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T00:50:27.042Z",
+              "WhenOpened": "2024-05-12T21:46:26.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Pedido.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\Pedido.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Pedido.cs",
-              "RelativeToolTip": "LogicaNegocio\\Dominio\\Pedido.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAXAAAA",
+              "DocumentIndex": 45,
+              "Title": "CUListarClientes.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoClientes\\CUListarClientes.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoClientes\\CUListarClientes.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoClientes\\CUListarClientes.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoClientes\\CUListarClientes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T01:05:44.16Z",
+              "WhenOpened": "2024-05-08T23:53:26.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LibreriaContext.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\LibreriaContext.cs",
-              "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\LibreriaContext.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\LibreriaContext.cs",
-              "RelativeToolTip": "LogicaDatos\\Repositorios\\LibreriaContext.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAkwD0AAAAAAAAA",
+              "DocumentIndex": 50,
+              "Title": "CUBuscarLineaPorId.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUBuscarLineaPorId.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUBuscarLineaPorId.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUBuscarLineaPorId.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUBuscarLineaPorId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T21:54:06.301Z",
+              "WhenOpened": "2024-05-12T21:46:15.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Cliente.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\Cliente.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Cliente.cs",
-              "RelativeToolTip": "LogicaNegocio\\Dominio\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "DocumentIndex": 48,
+              "Title": "20240514225240_Dudoso.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240514225240_Dudoso.cs",
+              "RelativeDocumentMoniker": "LogicaDatos\\Migrations\\20240514225240_Dudoso.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240514225240_Dudoso.cs",
+              "RelativeToolTip": "LogicaDatos\\Migrations\\20240514225240_Dudoso.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T00:55:10.803Z",
+              "WhenOpened": "2024-05-14T22:52:40.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Clientes\\Create.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Clientes\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Clientes\\Create.cshtml",
-              "RelativeToolTip": "ObligatorioP3\\Views\\Clientes\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAOAAAA",
+              "DocumentIndex": 51,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Lineas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Lineas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Lineas\\Delete.cshtml",
+              "RelativeToolTip": "ObligatorioP3\\Views\\Lineas\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T23:01:06.202Z",
+              "WhenOpened": "2024-05-12T20:05:52.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IRepositorioPedido.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioPedido.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioPedido.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioPedido.cs",
-              "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioPedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "DocumentIndex": 52,
+              "Title": "CUAltaLinea.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUAltaLinea.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUAltaLinea.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUAltaLinea.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUAltaLinea.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAmwBUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T23:01:54.088Z",
+              "WhenOpened": "2024-05-12T21:30:08.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 53,
+              "Title": "CUAltaPedidoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAltaPedidoViewModel.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAltaPedidoViewModel.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAltaPedidoViewModel.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAltaPedidoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T01:23:19.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
               "Title": "IRepositorioCliente.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioCliente.cs",
               "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioCliente.cs",
@@ -780,32 +1188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CUListarClientes.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoClientes\\CUListarClientes.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoClientes\\CUListarClientes.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoClientes\\CUListarClientes.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoClientes\\CUListarClientes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T23:53:26.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Index.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Articulos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Index.cshtml",
-              "RelativeToolTip": "ObligatorioP3\\Views\\Articulos\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T00:51:26.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 55,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Create.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Articulos\\Create.cshtml",
@@ -813,83 +1196,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Articulos\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T00:51:25.629Z"
+              "WhenOpened": "2024-05-02T00:51:25.629Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ArticulosController.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\ArticulosController.cs",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Controllers\\ArticulosController.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Controllers\\ArticulosController.cs",
-              "RelativeToolTip": "ObligatorioP3\\Controllers\\ArticulosController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwCQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T01:23:22.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Promociones\\Create.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Promociones\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Promociones\\Create.cshtml",
-              "RelativeToolTip": "ObligatorioP3\\Views\\Promociones\\Create.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T19:35:43.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Promocion.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Promocion.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\Promocion.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Promocion.cs",
-              "RelativeToolTip": "LogicaNegocio\\Dominio\\Promocion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T00:02:55.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CUListarPedidos.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidos.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidos.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidos.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T23:48:51.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Create.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Usuarios\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Create.cshtml",
-              "RelativeToolTip": "ObligatorioP3\\Views\\Usuarios\\Create.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-27T23:44:08.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "CUBuscarLineaPorId.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUBuscarLineaPorId.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUBuscarLineaPorId.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUBuscarLineaPorId.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUBuscarLineaPorId.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:46:15.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 56,
               "Title": "CUBuscarPedidoPorId.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUBuscarPedidoPorId.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUBuscarPedidoPorId.cs",
@@ -897,11 +1209,12 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUBuscarPedidoPorId.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T23:34:23.747Z"
+              "WhenOpened": "2024-05-12T23:34:23.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 58,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Clientes\\Index.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Clientes\\Index.cshtml",
@@ -909,11 +1222,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Clientes\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T23:01:07.163Z"
+              "WhenOpened": "2024-05-08T23:01:07.163Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 59,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Clientes\\Edit.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Clientes\\Edit.cshtml",
@@ -921,23 +1235,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Clientes\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T23:01:06.623Z"
+              "WhenOpened": "2024-05-08T23:01:06.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Promociones\\Index.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Promociones\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Promociones\\Index.cshtml",
-              "RelativeToolTip": "ObligatorioP3\\Views\\Promociones\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T20:07:23.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 57,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Home\\Index.cshtml",
@@ -945,23 +1248,25 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T02:23:05.761Z"
+              "WhenOpened": "2024-05-02T02:23:05.761Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 60,
               "Title": "CUListarLineas.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUListarLineas.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUListarLineas.cs",
               "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUListarLineas.cs",
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUListarLineas.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:30:45.171Z"
+              "WhenOpened": "2024-05-12T21:30:45.171Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 61,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Edit.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Articulos\\Edit.cshtml",
@@ -969,71 +1274,23 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Articulos\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T00:51:25.81Z"
+              "WhenOpened": "2024-05-02T00:51:25.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Articulo.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\Articulo.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Articulo.cs",
-              "RelativeToolTip": "LogicaNegocio\\Dominio\\Articulo.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAkwBoAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T00:44:13.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "BuscarPromocionPorId.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\BuscarPromocionPorId.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\BuscarPromocionPorId.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\BuscarPromocionPorId.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\BuscarPromocionPorId.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T20:35:26.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 62,
               "Title": "20240512220226_Nuevodudoso.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240512220226_Nuevodudoso.cs",
               "RelativeDocumentMoniker": "LogicaDatos\\Migrations\\20240512220226_Nuevodudoso.cs",
               "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240512220226_Nuevodudoso.cs",
               "RelativeToolTip": "LogicaDatos\\Migrations\\20240512220226_Nuevodudoso.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T22:02:27.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "CUAltaDireccion.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\CUAltaDireccion.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\CUAltaDireccion.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\CUAltaDireccion.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\CUAltaDireccion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:31:49.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "BuscarDireccionPorId.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\BuscarDireccionPorId.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\BuscarDireccionPorId.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\BuscarDireccionPorId.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\BuscarDireccionPorId.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:46:26.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 63,
               "Title": "CUListaArticuloOrden.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoArticulo\\CUListaArticuloOrden.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoArticulo\\CUListaArticuloOrden.cs",
@@ -1041,11 +1298,12 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoArticulo\\CUListaArticuloOrden.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T01:17:57.537Z"
+              "WhenOpened": "2024-05-02T01:17:57.537Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 64,
               "Title": "CUBorrarLinea.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUBorrarLinea.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUBorrarLinea.cs",
@@ -1053,11 +1311,12 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoLinea\\CUBorrarLinea.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:30:21.811Z"
+              "WhenOpened": "2024-05-12T21:30:21.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 65,
               "Title": "CUBajaDireccion.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\CUBajaDireccion.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\CUBajaDireccion.cs",
@@ -1065,11 +1324,12 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoDireccion\\CUBajaDireccion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:32:05.188Z"
+              "WhenOpened": "2024-05-12T21:32:05.188Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 66,
               "Title": "CUBorrarArticulo.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoArticulo\\CUBorrarArticulo.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoArticulo\\CUBorrarArticulo.cs",
@@ -1077,11 +1337,12 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoArticulo\\CUBorrarArticulo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T01:01:33.142Z"
+              "WhenOpened": "2024-05-04T01:01:33.142Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 67,
               "Title": "IRepositorioDireccion.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioDireccion.cs",
               "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioDireccion.cs",
@@ -1089,11 +1350,12 @@
               "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioDireccion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:38:56.702Z"
+              "WhenOpened": "2024-05-12T21:38:56.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 72,
               "Title": "CUListaPromocion.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\CUListaPromocion.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\CUListaPromocion.cs",
@@ -1101,11 +1363,12 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\CUListaPromocion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T20:35:47.524Z"
+              "WhenOpened": "2024-05-12T20:35:47.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 68,
               "Title": "RepositorioPromocionEF.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\RepositorioPromocionEF.cs",
               "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\RepositorioPromocionEF.cs",
@@ -1113,11 +1376,12 @@
               "RelativeToolTip": "LogicaDatos\\Repositorios\\RepositorioPromocionEF.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAcwB8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T19:12:00.636Z"
+              "WhenOpened": "2024-05-12T19:12:00.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 69,
               "Title": "CUBuscarUsuarioPorId.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoUsuario\\CUBuscarUsuarioPorId.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoUsuario\\CUBuscarUsuarioPorId.cs",
@@ -1125,11 +1389,12 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoUsuario\\CUBuscarUsuarioPorId.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T23:46:05.701Z"
+              "WhenOpened": "2024-05-08T23:46:05.701Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 73,
               "Title": "CUListarUsuarios.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoUsuario\\CUListarUsuarios.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoUsuario\\CUListarUsuarios.cs",
@@ -1137,11 +1402,12 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoUsuario\\CUListarUsuarios.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T23:04:29.946Z"
+              "WhenOpened": "2024-04-27T23:04:29.946Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 70,
               "Title": "CUAltaPromocion.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\CUAltaPromocion.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\CUAltaPromocion.cs",
@@ -1149,11 +1415,12 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\CUAltaPromocion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T20:34:49.765Z"
+              "WhenOpened": "2024-05-12T20:34:49.765Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 71,
               "Title": "CUBorrarPromocion.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\CUBorrarPromocion.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\CUBorrarPromocion.cs",
@@ -1161,11 +1428,12 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPromocion\\CUBorrarPromocion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T20:35:03.343Z"
+              "WhenOpened": "2024-05-12T20:35:03.343Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 74,
               "Title": "CUBorrarUsuario.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoUsuario\\CUBorrarUsuario.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoUsuario\\CUBorrarUsuario.cs",
@@ -1173,11 +1441,12 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoUsuario\\CUBorrarUsuario.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAuwBMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T19:11:35.724Z"
+              "WhenOpened": "2024-05-01T19:11:35.724Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 75,
               "Title": "CUAltaUsuario.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoUsuario\\CUAltaUsuario.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoUsuario\\CUAltaUsuario.cs",
@@ -1185,23 +1454,12 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoUsuario\\CUAltaUsuario.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAmwBQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T01:51:15.626Z"
+              "WhenOpened": "2024-04-28T01:51:15.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ObligatorioP3\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACgAAACIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-17T00:41:04.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 78,
               "Title": "ICULoginUsuario.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICULoginUsuario.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\InterfacesCU\\ICULoginUsuario.cs",
@@ -1209,23 +1467,12 @@
               "RelativeToolTip": "LogicaAplicacion\\InterfacesCU\\ICULoginUsuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T20:11:36.972Z"
+              "WhenOpened": "2024-04-16T20:11:36.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "CUAnularPedido.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAnularPedido.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAnularPedido.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAnularPedido.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUAnularPedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T23:26:45.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 76,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Promociones\\Delete.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Promociones\\Delete.cshtml",
@@ -1233,11 +1480,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Promociones\\Delete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T20:06:57.682Z"
+              "WhenOpened": "2024-05-12T20:06:57.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 77,
               "Title": "IRepositorioPromocion.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioPromocion.cs",
               "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioPromocion.cs",
@@ -1245,23 +1493,12 @@
               "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioPromocion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T19:12:28.152Z"
+              "WhenOpened": "2024-05-12T19:12:28.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "CUCalcularTotal.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUCalcularTotal.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUCalcularTotal.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUCalcularTotal.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUCalcularTotal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T19:39:31.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 79,
               "Title": "RepositorioUsuarioEF.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Repositorios\\RepositorioUsuarioEF.cs",
               "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\RepositorioUsuarioEF.cs",
@@ -1269,11 +1506,12 @@
               "RelativeToolTip": "LogicaDatos\\Repositorios\\RepositorioUsuarioEF.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAxwCsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T01:02:58.166Z"
+              "WhenOpened": "2024-05-02T01:02:58.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 80,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Promociones\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Promociones\\Create.cshtml.cs",
@@ -1281,11 +1519,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Promociones\\Create.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T19:35:43.902Z"
+              "WhenOpened": "2024-05-12T19:35:43.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 81,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Clientes\\Details.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Clientes\\Details.cshtml",
@@ -1293,47 +1532,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Clientes\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T23:01:06.801Z"
+              "WhenOpened": "2024-05-08T23:01:06.801Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "ICUBaja.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUBaja.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\InterfacesCU\\ICUBaja.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUBaja.cs",
-              "RelativeToolTip": "LogicaAplicacion\\InterfacesCU\\ICUBaja.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T00:59:51.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "CUListarPedidosAnulados.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidosAnulados.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidosAnulados.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidosAnulados.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoPedido\\CUListarPedidosAnulados.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T23:45:00.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "ICUListarPedidosAnulados.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUListarPedidosAnulados.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\InterfacesCU\\ICUListarPedidosAnulados.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUListarPedidosAnulados.cs",
-              "RelativeToolTip": "LogicaAplicacion\\InterfacesCU\\ICUListarPedidosAnulados.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T23:44:05.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 82,
               "Title": "IRepositorioArticulo.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioArticulo.cs",
               "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioArticulo.cs",
@@ -1341,23 +1545,12 @@
               "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioArticulo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T01:15:00.261Z"
+              "WhenOpened": "2024-05-02T01:15:00.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "ICUAnularPedido.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUAnularPedido.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\InterfacesCU\\ICUAnularPedido.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\InterfacesCU\\ICUAnularPedido.cs",
-              "RelativeToolTip": "LogicaAplicacion\\InterfacesCU\\ICUAnularPedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T23:28:17.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 83,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Clientes\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Clientes\\Index.cshtml.cs",
@@ -1365,11 +1558,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Clientes\\Index.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T23:01:07.257Z"
+              "WhenOpened": "2024-05-08T23:01:07.257Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 84,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Clientes\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Clientes\\Delete.cshtml.cs",
@@ -1377,11 +1571,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Clientes\\Delete.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T23:01:07.07Z"
+              "WhenOpened": "2024-05-08T23:01:07.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 85,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Clientes\\Delete.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Clientes\\Delete.cshtml",
@@ -1389,11 +1584,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Clientes\\Delete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T23:01:06.987Z"
+              "WhenOpened": "2024-05-08T23:01:06.987Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 86,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Clientes\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Clientes\\Details.cshtml.cs",
@@ -1401,11 +1597,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Clientes\\Details.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T23:01:06.893Z"
+              "WhenOpened": "2024-05-08T23:01:06.893Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 87,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Clientes\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Clientes\\Edit.cshtml.cs",
@@ -1413,11 +1610,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Clientes\\Edit.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T23:01:06.708Z"
+              "WhenOpened": "2024-05-08T23:01:06.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 88,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Clientes\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Clientes\\Create.cshtml.cs",
@@ -1425,11 +1623,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Clientes\\Create.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T23:01:06.517Z"
+              "WhenOpened": "2024-05-08T23:01:06.517Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 89,
               "Title": "ArticulosController.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAPI\\Controllers\\ArticulosController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\ArticulosController.cs",
@@ -1437,35 +1636,38 @@
               "RelativeToolTip": "WebAPI\\Controllers\\ArticulosController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T01:16:52.37Z"
+              "WhenOpened": "2024-05-04T01:16:52.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 91,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
               "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAPI\\Program.cs",
               "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBYAAABVAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAuwBYAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T01:14:38.067Z"
+              "WhenOpened": "2024-05-04T01:14:38.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 92,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Delete.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Usuarios\\Delete.cshtml",
               "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Delete.cshtml",
               "RelativeToolTip": "ObligatorioP3\\Views\\Usuarios\\Delete.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAIBJwCEAAAAcAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBZwCEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-27T23:44:09.408Z"
+              "WhenOpened": "2024-04-27T23:44:09.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 90,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebAPI\\Properties\\launchSettings.json",
@@ -1473,23 +1675,12 @@
               "RelativeToolTip": "WebAPI\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-04T01:37:38.283Z"
+              "WhenOpened": "2024-05-04T01:37:38.283Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "ObligatorioP3\\Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAIBJwDsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-27T23:44:09.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 93,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Delete.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Articulos\\Delete.cshtml",
@@ -1497,11 +1688,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Articulos\\Delete.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAUwC0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T00:51:26.086Z"
+              "WhenOpened": "2024-05-02T00:51:26.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 95,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Details.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Usuarios\\Details.cshtml",
@@ -1509,11 +1701,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Usuarios\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-27T23:44:09.258Z"
+              "WhenOpened": "2024-04-27T23:44:09.258Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 94,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Edit.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Usuarios\\Edit.cshtml",
@@ -1521,23 +1714,25 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Usuarios\\Edit.cshtml",
               "ViewState": "AQIAABYAAAAAAAAAAAAUwB4AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-27T23:44:09.108Z"
+              "WhenOpened": "2024-04-27T23:44:09.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 96,
               "Title": "DatosInvalidosException.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\ExcepcionesPropias\\DatosInvalidosException.cs",
               "RelativeDocumentMoniker": "LogicaNegocio\\ExcepcionesPropias\\DatosInvalidosException.cs",
               "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\ExcepcionesPropias\\DatosInvalidosException.cs",
               "RelativeToolTip": "LogicaNegocio\\ExcepcionesPropias\\DatosInvalidosException.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAIBJwA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAEBVwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T01:07:28.675Z"
+              "WhenOpened": "2024-04-28T01:07:28.675Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 97,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Articulos\\Edit.cshtml.cs",
@@ -1545,11 +1740,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Articulos\\Edit.cshtml.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAMwDsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T00:51:25.879Z"
+              "WhenOpened": "2024-05-02T00:51:25.879Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 98,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Articulos\\Details.cshtml.cs",
@@ -1557,11 +1753,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Articulos\\Details.cshtml.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAhwBcAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T00:51:26.021Z"
+              "WhenOpened": "2024-05-02T00:51:26.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 108,
               "Title": "CUBajaArticulo.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\CasosUso\\CasosUsoArticulo\\CUBajaArticulo.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\CasosUsoArticulo\\CUBajaArticulo.cs",
@@ -1569,23 +1766,25 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\CasosUsoArticulo\\CUBajaArticulo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T01:51:04.867Z"
+              "WhenOpened": "2024-05-02T01:51:04.867Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 99,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Articulos\\Delete.cshtml.cs",
               "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Delete.cshtml.cs",
               "RelativeToolTip": "ObligatorioP3\\Views\\Articulos\\Delete.cshtml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAIA3wBgAAAA3AAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAawBgAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T00:51:26.199Z"
+              "WhenOpened": "2024-05-02T00:51:26.199Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 100,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaNegocio\\Dominio\\Usuario.cs",
               "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\Usuario.cs",
@@ -1593,11 +1792,12 @@
               "RelativeToolTip": "LogicaNegocio\\Dominio\\Usuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T21:21:22.725Z"
+              "WhenOpened": "2024-05-01T21:21:22.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 102,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Details.cshtml",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Articulos\\Details.cshtml",
@@ -1605,11 +1805,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Articulos\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T00:51:25.956Z"
+              "WhenOpened": "2024-05-02T00:51:25.956Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 101,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Articulos\\Index.cshtml.cs",
@@ -1617,11 +1818,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Articulos\\Index.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T00:51:26.326Z"
+              "WhenOpened": "2024-05-02T00:51:26.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 103,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Articulos\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Articulos\\Create.cshtml.cs",
@@ -1629,23 +1831,23 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Articulos\\Create.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T00:51:25.724Z"
+              "WhenOpened": "2024-05-02T00:51:25.724Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 104,
               "Title": "20240501234158_NuevaActualizada.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240501234158_NuevaActualizada.cs",
               "RelativeDocumentMoniker": "LogicaDatos\\Migrations\\20240501234158_NuevaActualizada.cs",
               "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaDatos\\Migrations\\20240501234158_NuevaActualizada.cs",
               "RelativeToolTip": "LogicaDatos\\Migrations\\20240501234158_NuevaActualizada.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T23:41:58.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 106,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Usuarios\\Details.cshtml.cs",
@@ -1653,11 +1855,12 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Usuarios\\Details.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T23:44:09.332Z"
+              "WhenOpened": "2024-04-27T23:44:09.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 105,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Filters\\Admin.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Filters\\Admin.cs",
@@ -1665,11 +1868,12 @@
               "RelativeToolTip": "ObligatorioP3\\Filters\\Admin.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T21:11:41.823Z"
+              "WhenOpened": "2024-05-01T21:11:41.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 107,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\Views\\Usuarios\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "ObligatorioP3\\Views\\Usuarios\\Edit.cshtml.cs",
@@ -1677,7 +1881,8 @@
               "RelativeToolTip": "ObligatorioP3\\Views\\Usuarios\\Edit.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T23:44:09.179Z"
+              "WhenOpened": "2024-04-27T23:44:09.179Z",
+              "EditorCaption": ""
             }
           ]
         }

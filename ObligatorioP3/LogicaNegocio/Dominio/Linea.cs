@@ -10,17 +10,21 @@ namespace LogicaNegocio.Dominio
 {
     public class Linea : IValidable
     {
-        public int Id { get; set; }
+        public virtual int Id { get; set; }
 
-        public int ArticuloId { get; set; }
+        public virtual int ArticuloId { get; set; }
         [ForeignKey("ArticuloId")]
         public virtual Articulo Articulo { get; set; }
 
-        public int Cantidad { get; set; }
-        public int PedidoId { get; set; }
+        public virtual int Cantidad { get; set; }
+        public virtual int PedidoId { get; set; }
         [ForeignKey("PedidoId")]
         public virtual Pedido Pedido { get; set; }
-        public int PromocionId { get; set; }
+        public virtual int PromocionId { get; set; }
+
+        public virtual Promocion Promocion { get; set; }
+
+        public virtual int SubTotal { get; set; }
 
         public Linea()
         {

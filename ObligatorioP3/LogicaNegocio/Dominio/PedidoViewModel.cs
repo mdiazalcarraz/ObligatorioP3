@@ -10,6 +10,7 @@ namespace LogicaNegocio.Dominio
     {
         public Pedido Pedido { get; set; }
         public Linea Linea { get; set; }
+        public int DiasParaEntrega { get; set; }
 
         public PedidoViewModel()
         {

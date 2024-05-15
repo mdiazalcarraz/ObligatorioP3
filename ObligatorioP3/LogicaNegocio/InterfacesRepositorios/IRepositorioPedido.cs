@@ -11,6 +11,6 @@ namespace LogicaNegocio.InterfacesRepositorios
     {
        void AnularPedido(int ID);
        List<Pedido> ListarPedidosAnulados();
-       int CalcularTotal();
+       void CalcularTotal(int id);
     }
 }

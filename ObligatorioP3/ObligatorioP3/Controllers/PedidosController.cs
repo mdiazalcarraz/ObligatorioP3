@@ -11,6 +11,7 @@ using LogicaAplicacion.InterfacesCU;
 using LogicaNegocio.ExcepcionesPropias;
 using LogicaAplicacion.CasosUso.CasosUsoPromocion;
 using System.Drawing.Drawing2D;
+using LogicaAplicacion.CasosUsoPedido;
 
 namespace ObligatorioP3.Controllers
 {
@@ -20,6 +21,8 @@ namespace ObligatorioP3.Controllers
 
         public ICUAlta<Pedido> CUAlta { get; set; }
 
+        public ICUAlta<Linea> CUAltaLinea { get; set; }
+
         public ICUBuscarPorId<Pedido> CUBuscar { get; set; }
 
         public ICUListado<Promocion> CUListadoPromocion { get; set; }
@@ -28,7 +31,20 @@ namespace ObligatorioP3.Controllers
 
         public ICUListado<Cliente> CUListadoClientes { get; set; }
 
-        public PedidosController(ICUListado<Pedido> cuListado, ICUAlta<Pedido> cuAlta, ICUBuscarPorId<Pedido> cUBuscar, ICUListado<Cliente> cUListadoClientes, ICUListado<Promocion> cUListadoPromocion, ICUListado<Articulo> cUListadoArticulo)
+        public ICUBuscarPorId<Articulo> CUBuscarArticulo { get; set; }
+
+        public ICUBuscarPorId<Promocion> CUBuscarPromocion { get; set; }
+
+        public ICUBuscarPorId<Cliente> CUBuscarCliente { get; set; }
+
+        public ICUListarPedidosAnulados CUListarPedidosAnulados { get; set; }
+
+        public ICUAnularPedido CUAnularPedido { get; set; }
+
+        public ICUCalcularTotal CUCalcularTotal { get; set; }
+
+
+        public PedidosController(ICUListado<Pedido> cuListado, ICUAlta<Pedido> cuAlta, ICUBuscarPorId<Pedido> cUBuscar, ICUListado<Cliente> cUListadoClientes, ICUListado<Promocion> cUListadoPromocion, ICUListado<Articulo> cUListadoArticulo, ICUBuscarPorId<Cliente> cUBuscarCliente, ICUBuscarPorId<Articulo> cUBuscarArticulo, ICUBuscarPorId<Promocion> cUBuscarPromocion, ICUAlta<Linea> cUAltaLinea, ICUListarPedidosAnulados cUListarPedidosAnulados, ICUAnularPedido cUAnularPedido, ICUCalcularTotal cUCalcularTotal)
         {
             CUListado = cuListado;
             CUAlta = cuAlta;
@@ -36,6 +52,13 @@ namespace ObligatorioP3.Controllers
             CUListadoClientes = cUListadoClientes;
             CUListadoPromocion = cUListadoPromocion;
             CUListadoArticulo = cUListadoArticulo;
+            CUBuscarArticulo = cUBuscarArticulo;
+            CUBuscarPromocion = cUBuscarPromocion;
+            CUBuscarCliente = cUBuscarCliente;
+            CUAltaLinea = cUAltaLinea;
+            CUListarPedidosAnulados = cUListarPedidosAnulados;
+            CUAnularPedido = cUAnularPedido;
+            CUCalcularTotal = cUCalcularTotal;
         }
 
         // GET: Pedidos
@@ -43,6 +66,12 @@ namespace ObligatorioP3.Controllers
         {
             List<Pedido> Pedidos = CUListado.ObtenerListado();
             return View(Pedidos);
+        }
+
+        public IActionResult ListarPedidosAnulados()
+        {
+            List<Pedido> PedidosAnulados = CUListarPedidosAnulados.ListarPedidosAnulados();
+            return View("Index", PedidosAnulados);
         }
 
 
@@ -65,9 +94,14 @@ namespace ObligatorioP3.Controllers
             {
                 //if (ModelState.IsValid)
                 //{
-                    pedidoViewModel.Pedido.Lineas.Add(pedidoViewModel.Linea);
-                    CUAlta.Alta(pedidoViewModel.Pedido);
-                    return RedirectToAction(nameof(Index));
+                pedidoViewModel.Linea.Articulo = CUBuscarArticulo.Buscar(pedidoViewModel.Linea.ArticuloId);
+                pedidoViewModel.Linea.Promocion = CUBuscarPromocion.Buscar(pedidoViewModel.Linea.PromocionId);
+                pedidoViewModel.Pedido.Cliente = CUBuscarCliente.Buscar(pedidoViewModel.Pedido.ClienteId);
+                pedidoViewModel.Pedido.FechaPrometida = pedidoViewModel.Pedido.FechaPedido.AddDays(pedidoViewModel.DiasParaEntrega);
+                CUAlta.Alta(pedidoViewModel.Pedido);
+                pedidoViewModel.Linea.Pedido = pedidoViewModel.Pedido;
+                CUAltaLinea.Alta(pedidoViewModel.Linea);
+                return RedirectToAction(nameof(Index));
                 //}
             }
             catch (DatosInvalidosException ex)
@@ -82,6 +116,19 @@ namespace ObligatorioP3.Controllers
             return View(pedidoViewModel.Pedido);
         }
 
+        [HttpPost]
+        public IActionResult AnularPedido(int id)
+        {
+            CUAnularPedido.AnularPedido(id);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult CalcularTotal(int id)
+        {
+            CUAnularPedido.AnularPedido(id);
+            return RedirectToAction("Index");
+        }
 
 
         private bool PedidoExists(int id)
@@ -90,7 +137,9 @@ namespace ObligatorioP3.Controllers
 
             if (p == null) return false;
 
+
             return true;
         }
     }
 }
+

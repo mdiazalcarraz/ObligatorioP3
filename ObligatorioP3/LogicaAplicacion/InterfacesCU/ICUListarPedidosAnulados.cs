@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.InterfacesCU
 {
-    internal interface ICUListarPedidosAnulados
+    public interface ICUListarPedidosAnulados
     {
         List<Pedido> ListarPedidosAnulados();
     }

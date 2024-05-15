@@ -21,5 +21,10 @@ namespace LogicaAplicacion.CasosUsoPedido
         {
             return Repo.ListarPedidosAnulados();
         }
+
+        List<Pedido> ICUListarPedidosAnulados.ListarPedidosAnulados()
+        {
+            return Repo.ListarPedidosAnulados();
+        }
     }
 }

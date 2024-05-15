@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <Compile Remove="CasosUso\CasosUsoArticulo\CUBajaArticulo.cs" />
+    <Compile Remove="CasosUso\CasosUsoPedido\CUAltaPedidoViewModel.cs" />
   </ItemGroup>
 
   <ItemGroup>

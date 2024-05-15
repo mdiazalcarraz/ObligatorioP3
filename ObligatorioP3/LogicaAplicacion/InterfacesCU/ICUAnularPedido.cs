@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.InterfacesCU
 {
-    internal interface ICUAnularPedido
+    public interface ICUAnularPedido
     {
         void AnularPedido(int ID);
     }

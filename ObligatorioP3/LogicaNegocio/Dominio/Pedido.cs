@@ -11,12 +11,14 @@ namespace LogicaNegocio.Dominio
 {
     public class Pedido : IValidable
     {
-        public static int Iva {  get; set; }
-        public string Estado { get; set; }
+        public int? Iva {  get; set; }
+        public string? Estado { get; set; }
         public int Id { get; set; }
         public DateTime FechaPedido { get; set; }
+
+        public DateTime FechaPrometida { get; set; }
         public int ClienteId { get; set; } 
-        public virtual Cliente Cliente { get; set; }
+        public virtual Cliente? Cliente { get; set; }
         public virtual List<Linea>? Lineas { get; set; }
         public int? Total { get; set; }
         public string Tipo { get; set; }   

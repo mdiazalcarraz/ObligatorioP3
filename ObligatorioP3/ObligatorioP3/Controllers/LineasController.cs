@@ -10,6 +10,8 @@ using LogicaNegocio.Dominio;
 using LogicaAplicacion.InterfacesCU;
 using LogicaNegocio.ExcepcionesPropias;
 using System.Drawing.Drawing2D;
+using LogicaAplicacion.CasosUso.CasosUsoLinea;
+using LogicaAplicacion.CasosUso.CasosUsoArticulo;
 
 namespace ObligatorioP3.Controllers
 {
@@ -27,7 +29,12 @@ namespace ObligatorioP3.Controllers
 
         public ICUBuscarPorId<Linea> CUBuscar { get; set; }
 
-        public LineasController(ICUListado<Linea> cuListado, ICUAlta<Linea> cuAlta, ICUBaja<Linea> cuBaja, ICUBuscarPorId<Linea> cUBuscarPorId, ICUListado<Promocion> cUListadoPromocion, ICUListado<Articulo> cUListadoArticulo)
+        public ICUBuscarPorId<Articulo> CUBuscarArticulo { get; set; }
+
+        public ICUBuscarPorId<Promocion> CUBuscarPromocion { get; set; }
+
+
+        public LineasController(ICUListado<Linea> cuListado, ICUAlta<Linea> cuAlta, ICUBaja<Linea> cuBaja, ICUBuscarPorId<Linea> cUBuscarPorId, ICUListado<Promocion> cUListadoPromocion, ICUListado<Articulo> cUListadoArticulo, ICUBuscarPorId<Articulo> cUBuscarArticulo, ICUBuscarPorId<Promocion> cUBuscarPromocion)
         {
             CUListado = cuListado;
             CUAlta = cuAlta;
@@ -35,6 +42,8 @@ namespace ObligatorioP3.Controllers
             CUBuscar = cUBuscarPorId;
             CUListadoPromocion = cUListadoPromocion;
             CUListadoArticulo = cUListadoArticulo;
+            CUBuscarArticulo = cUBuscarArticulo;
+            CUBuscarPromocion = cUBuscarPromocion;
         }
 
         // GET: Lineas
@@ -63,8 +72,12 @@ namespace ObligatorioP3.Controllers
             {
                 //if (ModelState.IsValid)
                 //{
+                    nueva.Articulo = CUBuscarArticulo.Buscar(nueva.ArticuloId);
+                    nueva.Promocion = CUBuscarPromocion.Buscar(nueva.PromocionId);
                     CUAlta.Alta(nueva);
-                    return RedirectToAction(nameof(Index));
+                    List<Linea> lineas = CUListado.ObtenerListado();
+                    lineas = lineas.Where(l => l.PedidoId == nueva.PedidoId).ToList();
+                    return RedirectToAction("Index", new { id = nueva.PedidoId, lineas = lineas });
                 //}
             }
             catch (DatosInvalidosException ex)

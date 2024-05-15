@@ -48,6 +48,10 @@ namespace ObligatorioP3
             builder.Services.AddScoped<ICUAlta<Pedido>, CUAltaPedido>();
             builder.Services.AddScoped<ICUBuscarPorId<Pedido>, CUBuscarPedidoPorId>();
             builder.Services.AddScoped<ICUListado<Cliente>, CUListarClientes>();
+            builder.Services.AddScoped<ICUBuscarPorId<Cliente>, CUBuscarClientePorId>();
+            builder.Services.AddScoped<ICUListarPedidosAnulados, CUListarPedidosAnulados>();
+            builder.Services.AddScoped<ICUAnularPedido, CUAnularPedido>();
+            builder.Services.AddScoped<ICUCalcularTotal, CUCalcularTotal>();
 
             builder.Services.AddScoped<IRepositorioUsuario, RepositorioUsuarioEF>();
             builder.Services.AddScoped<IRepositorioArticulo, RepositorioArticulosEF>();
@@ -55,7 +59,6 @@ namespace ObligatorioP3
             builder.Services.AddScoped<IRepositorioCliente, RepositorioClienteEF>();
             builder.Services.AddScoped<IRepositorioPromocion, RepositorioPromocionEF>();
             builder.Services.AddScoped<IRepositorioPedido, RepositorioPedidoEF>();
-            
 
 
 

@@ -4,9 +4,9 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Crear Nuevo pedido</h1>
 
-<h4>Pedido</h4>
+<h4>Ingrese su pedido Pedido</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -17,7 +17,7 @@
                 @if (ViewBag.Clientes != null)
                 {
                     <select asp-for="Pedido.ClienteId" class="form-control" asp-items="@(new SelectList(ViewBag.Clientes, "Id", "RazonSocial"))">
-                        <option value="">Seleccione un Articulo</option>
+                        <option value="">Seleccione un Cliente</option>
                     </select>
                 }
                 else
@@ -37,7 +37,20 @@
                 </select>
                 <span asp-validation-for="Pedido.Tipo" class="text-danger"></span>
             </div>
-
+                <div class="form-group">
+                    <label asp-for="DiasParaEntrega" class="control-label"></label>
+                    <select asp-for="DiasParaEntrega" class="form-control">
+                        <option value="">Selecciona una opción</option>
+                        <option value="8">8 Dias</option>
+                        <option value="9">9 Dias</option>
+                        <option value="10">10 Dias</option>
+                        <option value="11">11 Dias</option>
+                        <option value="12">12 Dias</option>
+                    </select>
+                    <span asp-validation-for="DiasParaEntrega" class="text-danger"></span>
+                </div>
+         
+            <h4>Ingrese la primera linea del pedido</h4>
             <div class="form-group">
                 <div class="form-group">
                     <label asp-for="Linea.ArticuloId" class="control-label"></label>

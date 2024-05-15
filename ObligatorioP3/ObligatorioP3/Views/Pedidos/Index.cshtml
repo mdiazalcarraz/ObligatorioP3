@@ -6,9 +6,10 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Crear nuevo pedido</a>
-</p>
+<td>
+    <a asp-action="Create">Crear nuevo pedido</a> |
+    <a asp-action="ListarPedidosAnulados">Listar pedidos anulados</a>
+</td>
 <table class="table">
     <thead>
         <tr>
@@ -42,11 +43,30 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Tipo)
             </td>
-            <td>|
-                    <a asp-controller="Lineas" asp-action="Index" asp-route-id="@item.Id" asp-route-lineas="@item.Lineas">Editar Lineas</a> |
-                <a asp-action="AnularPedido" asp-route-id="@item.Id">Anular</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Postear</a>
-            </td>
+                <td>
+                    <div class="action-buttons">
+                        @if (@item.Total == 0)
+                        {
+                            <a asp-controller="Lineas" asp-action="Index" asp-route-id="@item.Id" asp-route-lineas="@item.Lineas" class="btn btn-edit">Editar Lineas</a>
+                        }
+                        |
+                        @if (@item.Total != 0)
+                        {
+                            <form asp-controller="Pedidos" asp-action="CalcularTotal" method="post" style="display: inline;">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" class="btn btn-anular">Postear Factura</button>
+                            </form>
+                        }
+                        |
+                        @if (@item.Estado != "Anulado")
+                        {
+                            <form asp-controller="Pedidos" asp-action="AnularPedido" method="post" style="display: inline;"> 
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" class="btn btn-anular">Anular</button> 
+                            </form>
+                        }
+                    </div>
+                </td>
         </tr>
 }
     </tbody>

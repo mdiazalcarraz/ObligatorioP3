@@ -1,4 +1,5 @@
-﻿using LogicaNegocio.InterfacesRepositorios;
+﻿using LogicaAplicacion.InterfacesCU;
+using LogicaNegocio.InterfacesRepositorios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.CasosUso.CasosUsoPedido
 {
-    public class CUCalcularTotal
+    public class CUCalcularTotal : ICUCalcularTotal
     {
         public IRepositorioPedido Repo { get; set; }
 
@@ -16,9 +17,9 @@ namespace LogicaAplicacion.CasosUso.CasosUsoPedido
             Repo = repo;
         }
 
-        public int CalcularTotal() 
+        public void CalcularTotal(int id) 
         {
-            return Repo.CalcularTotal();
+            Repo.CalcularTotal(id);
         }
     }
 }

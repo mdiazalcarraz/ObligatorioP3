@@ -1,6 +1,7 @@
 ﻿using LogicaNegocio.Dominio;
 using LogicaNegocio.ExcepcionesPropias;
 using LogicaNegocio.InterfacesRepositorios;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,19 +26,30 @@ namespace LogicaDatos.Repositorios
                     linea.Validar();
                     if (FindById(linea.Id) == null)
                     {
-                    //linea.PrecioUnitarioVigente = linea.Articulo.Precio;
+                    linea.SubTotal = linea.Articulo.Precio * linea.Cantidad * (1 - (linea.Promocion.Descuento / 100));
 
-                    Contexto.Lineas.Add(linea);
-                    Contexto.SaveChanges();
+                    if (linea.Pedido == null) 
+                    {
+                        Pedido pedido = Contexto.Pedidos.Find(linea.PedidoId);
+                        pedido.Lineas.Add(linea);
+                        Contexto.SaveChanges();
+                    } else 
+                    {
+                        linea.Pedido.Lineas.Add(linea);
+                        Contexto.SaveChanges();
                     }
-                    else { throw new DatosInvalidosException("La linea ya fue creado"); }
+                }
+                    else { throw new DatosInvalidosException("La linea no pudo ser creada"); }
                 }
             }
 
             public List<Linea> FindAll()
             {
-                return Contexto.Lineas.ToList();
-            }
+                return Contexto.Lineas
+                .Include(l => l.Articulo)
+                .Include(l => l.Promocion)
+                .ToList();
+        }
 
             public void Remove(int id)
             {
