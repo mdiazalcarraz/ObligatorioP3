@@ -1,4 +1,5 @@
-﻿using LogicaNegocio.InterfacesDominio;
+﻿using LogicaNegocio.ExcepcionesPropias;
+using LogicaNegocio.InterfacesDominio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -11,8 +12,8 @@ namespace LogicaNegocio.Dominio
 {
     public class Pedido : IValidable
     {
-        public double? Iva {  get; set; }
-        public string? Estado { get; set; }
+        public double Iva {  get; set; }
+        public string Estado { get; set; }
         public int Id { get; set; }
         public DateTime FechaPedido { get; set; }
 
@@ -20,7 +21,7 @@ namespace LogicaNegocio.Dominio
         public int ClienteId { get; set; } 
         public virtual Cliente? Cliente { get; set; }
         public virtual List<Linea>? Lineas { get; set; }
-        public double? Total { get; set; }
+        public double Total { get; set; }
         public string Tipo { get; set; }   
 
         public Pedido()
@@ -34,7 +35,15 @@ namespace LogicaNegocio.Dominio
 
         public void Validar()
         {
-            //implementar
+            if (Estado == null)
+            {
+                throw new DatosInvalidosException("El estado del pedido no puede ser nulo.");
+            }
+
+            if (Tipo == null)
+            {
+                throw new DatosInvalidosException("El tipo del pedido no puede ser nulo.");
+            }
         }
     }
     

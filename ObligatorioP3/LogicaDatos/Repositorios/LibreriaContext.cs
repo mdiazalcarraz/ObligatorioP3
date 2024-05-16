@@ -66,6 +66,6 @@ namespace LogicaDatos.Repositorios
               .HasForeignKey(b => b.PedidoId);
 
             base.OnModelCreating(modelBuilder);
-		}
+        }
 	}
 }

@@ -16,12 +16,15 @@ namespace ObligatorioP3.Controllers
         private readonly ILogger<HomeController> _logger;
 
         public ICULoginUsuario CULogin { get; set; }
+
+        public ICUEncriptarContraseniaUsuario CUEncriptarContrasenia { get; set; }
         
-		public HomeController(ILogger<HomeController> logger, ICULoginUsuario cuLogin)
+		public HomeController(ILogger<HomeController> logger, ICULoginUsuario cuLogin, ICUEncriptarContraseniaUsuario cUEncriptarContraseniaUsuario)
 		{
 			_logger = logger;
 			CULogin = cuLogin;
-		}
+            CUEncriptarContrasenia = cUEncriptarContraseniaUsuario;
+        }
 
 		public IActionResult Index()
         {
@@ -51,7 +54,8 @@ namespace ObligatorioP3.Controllers
         {
             try
             {
-                Usuario usu = CULogin.Login(email, password);
+                string contraEncriptada = CUEncriptarContrasenia.EncriptarContrasenia(password);
+                Usuario usu = CULogin.Login(email, contraEncriptada);
                 if (usu != null)
                 {
                     HttpContext.Session.SetString("usu", email);

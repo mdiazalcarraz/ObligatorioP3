@@ -12,6 +12,9 @@
 
   <ItemGroup>
     <Content Remove="Views\Clientes\Create.cshtml" />
+    <Content Remove="Views\Pedidos\Delete.cshtml" />
+    <Content Remove="Views\Pedidos\Details.cshtml" />
+    <Content Remove="Views\Pedidos\Edit.cshtml" />
     <Content Remove="Views\Variables\Delete.cshtml" />
   </ItemGroup>
 
@@ -29,6 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DTOs\DTOs.csproj" />
     <ProjectReference Include="..\LogicaAplicacion\LogicaAplicacion.csproj" />
     <ProjectReference Include="..\LogicaDatos\LogicaDatos.csproj" />
     <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj" />

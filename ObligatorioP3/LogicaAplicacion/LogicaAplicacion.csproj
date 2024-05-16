@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DTOs\DTOs.csproj" />
     <ProjectReference Include="..\LogicaDatos\LogicaDatos.csproj" />
     <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj" />
   </ItemGroup>

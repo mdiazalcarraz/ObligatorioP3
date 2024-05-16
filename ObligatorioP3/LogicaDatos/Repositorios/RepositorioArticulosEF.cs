@@ -24,7 +24,7 @@ namespace LogicaDatos.Repositorios
             if (art != null)
             {
                 art.Validar();
-                if(FindById(art.Codigo) == null)
+                if(FindByCodigo(art.Codigo) == null)
                 {
                     Contexto.Articulos.Add(art);
                     Contexto.SaveChanges();
@@ -60,6 +60,13 @@ namespace LogicaDatos.Repositorios
             return Contexto.Articulos
                  .Where(Articulo => Articulo.Id == Id)
                  .SingleOrDefault();
+        }
+
+        public Articulo FindByCodigo(long codigo)
+        {
+            return Contexto.Articulos
+                .Where(Articulo => Articulo.Codigo == codigo)
+                .SingleOrDefault();
         }
     }
 }

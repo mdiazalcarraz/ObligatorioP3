@@ -14,7 +14,7 @@ namespace LogicaNegocio.Dominio
     {
         public int Id { get; set; }
         public string RazonSocial { get; set; }
-        public int Rut { get; set; }
+        public long Rut { get; set; }
         public int DireccionId { get; set; }
         public Direccion Direccion { get; set; }
 
@@ -24,7 +24,15 @@ namespace LogicaNegocio.Dominio
 
         public void Validar()
         {
-            if (string.IsNullOrEmpty(RazonSocial)) { throw new DatosInvalidosException("Validaciones pendientes"); }
+            if (string.IsNullOrEmpty(RazonSocial))
+            {
+                throw new DatosInvalidosException("La razón social no puede estar vacía.");
+            }
+
+            if (Rut.ToString().Length != 12)
+            {
+                throw new DatosInvalidosException("El RUT debe tener exactamente 12 dígitos.");
+            }
         }
     }
 }

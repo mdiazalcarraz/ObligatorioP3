@@ -9,6 +9,6 @@ namespace LogicaNegocio.InterfacesRepositorios
 {
     public interface IRepositorioArticulo : IRepositorio<Articulo>
     {
-   
+        public Articulo FindByCodigo(long codigo);
     }
 }

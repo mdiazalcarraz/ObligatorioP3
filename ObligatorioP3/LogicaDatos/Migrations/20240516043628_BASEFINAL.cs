@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace LogicaDatos.Migrations
 {
     /// <inheritdoc />
-    public partial class Nueva22 : Migration
+    public partial class BASEFINAL : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,7 +18,7 @@ namespace LogicaDatos.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Codigo = table.Column<int>(type: "int", nullable: false),
+                    Codigo = table.Column<long>(type: "bigint", nullable: false),
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Precio = table.Column<int>(type: "int", nullable: false),
                     Stock = table.Column<int>(type: "int", nullable: false)
@@ -67,8 +67,9 @@ namespace LogicaDatos.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Administrador = table.Column<bool>(type: "bit", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    NombreYApellido = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Contrasenia = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    NombreYApellido_NombreValue = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Contrasenia = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ContraseniaEncriptada = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -96,7 +97,7 @@ namespace LogicaDatos.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     RazonSocial = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Rut = table.Column<int>(type: "int", nullable: false),
+                    Rut = table.Column<long>(type: "bigint", nullable: false),
                     DireccionId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -116,12 +117,12 @@ namespace LogicaDatos.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Iva = table.Column<double>(type: "float", nullable: true),
-                    Estado = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Iva = table.Column<double>(type: "float", nullable: false),
+                    Estado = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FechaPedido = table.Column<DateTime>(type: "datetime2", nullable: false),
                     FechaPrometida = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ClienteId = table.Column<int>(type: "int", nullable: false),
-                    Total = table.Column<double>(type: "float", nullable: true),
+                    Total = table.Column<double>(type: "float", nullable: false),
                     Tipo = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>

@@ -1,13 +1,14 @@
-﻿@model LogicaNegocio.Dominio.PedidoViewModel
+﻿@model PedidoViewModel
 
 @{
     ViewData["Title"] = "Create";
 }
 
-<h1>Crear Nuevo pedido</h1>
+<h1>Crear Nuevo Pedido</h1>
 
-<h4>Ingrese su pedido Pedido</h4>
+<h4>Ingrese su Pedido</h4>
 <hr />
+<br />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
@@ -28,29 +29,27 @@
                 }
                 <span asp-validation-for="Pedido.ClienteId" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="Pedido.Tipo" class="control-label"></label>
-                <select asp-for="Pedido.Tipo" class="form-control">
+                <select asp-for="Pedido.Tipo" class="form-control" id="pedidoTipo">
                     <option value="">Selecciona una opción</option>
                     <option value="Pedido Comun">Pedido Comun</option>
                     <option value="Pedido Express">Pedido Express</option>
                 </select>
                 <span asp-validation-for="Pedido.Tipo" class="text-danger"></span>
             </div>
-                <div class="form-group">
-                    <label asp-for="DiasParaEntrega" class="control-label"></label>
-                    <select asp-for="DiasParaEntrega" class="form-control">
-                        <option value="">Selecciona una opción</option>
-                        <option value="8">8 Dias</option>
-                        <option value="9">9 Dias</option>
-                        <option value="10">10 Dias</option>
-                        <option value="11">11 Dias</option>
-                        <option value="12">12 Dias</option>
-                    </select>
-                    <span asp-validation-for="DiasParaEntrega" class="text-danger"></span>
-                </div>
-         
+            <br />
+            <div class="form-group" id="diasParaEntregaContainer">
+                <label asp-for="DiasParaEntrega" class="control-label"></label>
+                <select asp-for="DiasParaEntrega" class="form-control" id="diasParaEntrega">
+                    <option value="">Selecciona una opción</option>
+                </select>
+                <span asp-validation-for="DiasParaEntrega" class="text-danger"></span>
+            </div>
+            <br />
             <h4>Ingrese la primera linea del pedido</h4>
+            <br />
             <div class="form-group">
                 <div class="form-group">
                     <label asp-for="Linea.ArticuloId" class="control-label"></label>
@@ -67,27 +66,30 @@
                         </select>
                     }
                 </div>
+                <br />
                 <div class="form-group">
                     <label asp-for="Linea.Cantidad" class="control-label"></label>
                     <input asp-for="Linea.Cantidad" class="form-control" />
                     <span asp-validation-for="Linea.Cantidad" class="text-danger"></span>
                 </div>
+                <br />
                 <div class="form-group">
                     <label asp-for="Linea.PromocionId" class="control-label"></label>
                     @if (ViewBag.Promociones != null)
                     {
                         <select asp-for="Linea.PromocionId" class="form-control" asp-items="@(new SelectList(ViewBag.Promociones, "Id", "Nombre"))">
-                            <option value="">Seleccione un Articulo</option>
+                            <option value="">Seleccione una Promocion</option>
                         </select>
                     }
                     else
                     {
                         <select asp-for="Linea.PromocionId" class="form-control">
-                            <option value="">No hay promociones disponibles</option>
+                            <option value="">No hay Promociones disponibles</option>
                         </select>
                     }
                     <span asp-validation-for="Linea.PromocionId" class="text-danger"></span>
                 </div>
+                <br />
                 <div class="form-group">
                     <input type="submit" value="Create" class="btn btn-primary" />
                 </div>
@@ -103,5 +105,32 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        document.getElementById('pedidoTipo').addEventListener('change', function () {
+            var tipoPedido = this.value;
+            var diasParaEntregaContainer = document.getElementById('diasParaEntregaContainer');
+            var diasParaEntregaSelect = document.getElementById('diasParaEntrega');
+
+            if (tipoPedido === 'Pedido Express') {
+                diasParaEntregaContainer.style.display = 'block';
+                diasParaEntregaSelect.innerHTML = `
+                            <option value="">Selecciona una opción</option>
+                            <option value="0">En el día</option>
+                            <option value="-1">No en el día</option>`;
+            } else {
+                diasParaEntregaContainer.style.display = 'block';
+                diasParaEntregaSelect.innerHTML = `
+                            <option value="">Selecciona una opción</option>
+                            <option value="8">8 Días</option>
+                            <option value="9">9 Días</option>
+                            <option value="10">10 Días</option>
+                            <option value="11">11 Días</option>
+                            <option value="12">12 Días</option>`;
+            }
+        });
+    </script>
 }

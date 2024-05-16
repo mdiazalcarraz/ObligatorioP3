@@ -23,14 +23,14 @@ namespace ObligatorioP3.Views.Articulos
         [BindProperty]
         public Articulo Articulo { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(int id)
+        public async Task<IActionResult> OnGetAsync(long id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var articulo =  await _context.Articulos.FirstOrDefaultAsync(m => m.Codigo == id);
+            var articulo = await _context.Articulos.FirstOrDefaultAsync(m => m.Codigo == id);
             if (articulo == null)
             {
                 return NotFound();
@@ -69,7 +69,7 @@ namespace ObligatorioP3.Views.Articulos
             return RedirectToPage("./Index");
         }
 
-        private bool ArticuloExists(int id)
+        private bool ArticuloExists(long id)
         {
             return _context.Articulos.Any(e => e.Codigo == id);
         }

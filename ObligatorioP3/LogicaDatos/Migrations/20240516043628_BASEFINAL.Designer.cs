@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LogicaDatos.Migrations
 {
     [DbContext(typeof(LibreriaContext))]
-    [Migration("20240515160414_Nueva22")]
-    partial class Nueva22
+    [Migration("20240516043628_BASEFINAL")]
+    partial class BASEFINAL
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,8 +33,8 @@ namespace LogicaDatos.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Codigo")
-                        .HasColumnType("int");
+                    b.Property<long>("Codigo")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("Descripcion")
                         .IsRequired()
@@ -70,8 +70,8 @@ namespace LogicaDatos.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Rut")
-                        .HasColumnType("int");
+                    b.Property<long>("Rut")
+                        .HasColumnType("bigint");
 
                     b.HasKey("Id");
 
@@ -156,6 +156,7 @@ namespace LogicaDatos.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Estado")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("FechaPedido")
@@ -164,14 +165,14 @@ namespace LogicaDatos.Migrations
                     b.Property<DateTime>("FechaPrometida")
                         .HasColumnType("datetime2");
 
-                    b.Property<double?>("Iva")
+                    b.Property<double>("Iva")
                         .HasColumnType("float");
 
                     b.Property<string>("Tipo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double?>("Total")
+                    b.Property<double>("Total")
                         .HasColumnType("float");
 
                     b.HasKey("Id");
@@ -216,11 +217,11 @@ namespace LogicaDatos.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Email")
+                    b.Property<string>("ContraseniaEncriptada")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("NombreYApellido")
+                    b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -296,6 +297,29 @@ namespace LogicaDatos.Migrations
                         .IsRequired();
 
                     b.Navigation("Cliente");
+                });
+
+            modelBuilder.Entity("LogicaNegocio.Dominio.Usuario", b =>
+                {
+                    b.OwnsOne("LogicaNegocio.VOs.NombreUsuario", "NombreYApellido", b1 =>
+                        {
+                            b1.Property<int>("UsuarioId")
+                                .HasColumnType("int");
+
+                            b1.Property<string>("NombreValue")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b1.HasKey("UsuarioId");
+
+                            b1.ToTable("Usuarios");
+
+                            b1.WithOwner()
+                                .HasForeignKey("UsuarioId");
+                        });
+
+                    b.Navigation("NombreYApellido")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("LogicaNegocio.Dominio.Pedido", b =>

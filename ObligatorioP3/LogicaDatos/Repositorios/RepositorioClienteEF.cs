@@ -73,7 +73,7 @@ namespace LogicaDatos.Repositorios
             return pedido?.Cliente;
         }
 
-        public Cliente FindByRUT(int RUT)
+        public Cliente FindByRUT(long RUT)
         {
             {
                 return Contexto.Clientes

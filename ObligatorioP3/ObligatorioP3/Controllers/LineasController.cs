@@ -12,9 +12,11 @@ using LogicaNegocio.ExcepcionesPropias;
 using System.Drawing.Drawing2D;
 using LogicaAplicacion.CasosUso.CasosUsoLinea;
 using LogicaAplicacion.CasosUso.CasosUsoArticulo;
+using ObligatorioP3.Filters;
 
 namespace ObligatorioP3.Controllers
 {
+    [Admin]
     public class LineasController : Controller
     {
         public ICUListado<Linea> CUListado { get; set; }

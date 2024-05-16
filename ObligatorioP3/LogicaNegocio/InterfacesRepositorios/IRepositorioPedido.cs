@@ -10,6 +10,7 @@ namespace LogicaNegocio.InterfacesRepositorios
     public interface IRepositorioPedido : IRepositorio<Pedido>
     {
        void AnularPedido(int ID);
+
        List<Pedido> ListarPedidosAnulados();
 
         List<Linea> LineasFindAll();
@@ -21,5 +22,7 @@ namespace LogicaNegocio.InterfacesRepositorios
         public void UpdateLinea(Linea linea);
 
         public Linea FindByIdLinea(int id);
+
+        public List<Pedido> FindByIdCliente(int id);
     }
 }

@@ -12,9 +12,12 @@ using LogicaNegocio.ExcepcionesPropias;
 using LogicaAplicacion.CasosUso.CasosUsoPromocion;
 using System.Drawing.Drawing2D;
 using LogicaAplicacion.CasosUsoPedido;
+using ObligatorioP3.Models;
+using ObligatorioP3.Filters;
 
 namespace ObligatorioP3.Controllers
 {
+    [Admin]
     public class PedidosController : Controller
     {
         public ICUListado<Pedido> CUListado { get; set; }
@@ -97,9 +100,30 @@ namespace ObligatorioP3.Controllers
                 pedidoViewModel.Linea.Promocion = CUBuscarPromocion.Buscar(pedidoViewModel.Linea.PromocionId);
                 pedidoViewModel.Pedido.Cliente = CUBuscarCliente.Buscar(pedidoViewModel.Pedido.ClienteId);
                 pedidoViewModel.Pedido.FechaPrometida = pedidoViewModel.Pedido.FechaPedido.AddDays(pedidoViewModel.DiasParaEntrega);
-                CUAlta.Alta(pedidoViewModel.Pedido);
+                if (pedidoViewModel.Linea.Articulo.Stock < pedidoViewModel.Linea.Cantidad)
+                {
+                    ViewBag.Mensaje = "La cantidad seleccionada es menor al stock disponible del articulo";
+                    return View(pedidoViewModel);
+                }
+                try
+                {
+                    CUAlta.Alta(pedidoViewModel.Pedido);
+                }
+                catch (DatosInvalidosException ex)
+                {
+                    ViewBag.Mensaje = ex.Message;
+                    return View(pedidoViewModel);
+                }
                 pedidoViewModel.Linea.Pedido = pedidoViewModel.Pedido;
-                CUAltaLinea.Alta(pedidoViewModel.Linea);
+                try
+                {
+                    CUAltaLinea.Alta(pedidoViewModel.Linea);
+                }
+                catch (DatosInvalidosException ex)
+                {
+                    ViewBag.Mensaje = ex.Message;
+                    return View(pedidoViewModel);
+                }
                 return RedirectToAction(nameof(Index));
 
             }
@@ -110,15 +134,25 @@ namespace ObligatorioP3.Controllers
             catch (Exception ex)
             {
                 ViewBag.Mensaje = "Ocurrió un error inesperado. No se hizo el alta de Pedido";
+                return View(pedidoViewModel);
             }
 
-            return View(pedidoViewModel.Pedido);
+            return View(pedidoViewModel);
         }
 
         [HttpPost]
         public IActionResult AnularPedido(int id)
         {
-            CUAnularPedido.AnularPedido(id);
+            try
+            {
+                CUAnularPedido.AnularPedido(id);
+            }
+            catch (DatosInvalidosException ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                List<Pedido> Pedidos = CUListado.ObtenerListado();
+                return View("Index", Pedidos);
+            }
             return RedirectToAction("Index");
         }
 

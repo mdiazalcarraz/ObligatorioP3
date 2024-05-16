@@ -7,16 +7,24 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LogicaDatos.Repositorios;
 using LogicaNegocio.Dominio;
+using ObligatorioP3.Filters;
+using LogicaAplicacion.InterfacesCU;
 
 namespace ObligatorioP3.Controllers
 {
+    [Admin]
     public class ClientesController : Controller
     {
         private readonly LibreriaContext _context;
 
-        public ClientesController(LibreriaContext context)
+        public ICUListarClientePorMonto CUListarClientePorMonto { get; set; }
+
+        public ICUListarClientePorNombre CUListarClientePorNombre { get; set; }
+        public ClientesController(LibreriaContext context, ICUListarClientePorNombre cUListarClientePorNombre, ICUListarClientePorMonto cUListarClientePorMonto)
         {
             _context = context;
+            CUListarClientePorMonto = cUListarClientePorMonto;
+            CUListarClientePorNombre = cUListarClientePorNombre;
         }
 
         // GET: Clientes
@@ -152,6 +160,20 @@ namespace ObligatorioP3.Controllers
         private bool ClienteExists(int id)
         {
             return _context.Clientes.Any(e => e.Id == id);
+        }
+
+        [HttpPost]
+        public IActionResult FiltrarPorRazonSocial(string razonSocial)
+        {
+            List<Cliente> clientesFiltrados = CUListarClientePorNombre.BuscarPorNombre(razonSocial);
+            return View("Index", clientesFiltrados);
+        }
+
+        [HttpPost]
+        public IActionResult FiltrarPorRut(long monto)
+        {
+            List<Cliente> clientesFiltrados = CUListarClientePorMonto.ListarClientePorMonto(monto);
+            return View("Index", clientesFiltrados);
         }
     }
 }

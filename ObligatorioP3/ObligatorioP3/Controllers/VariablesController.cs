@@ -9,9 +9,11 @@ using LogicaDatos.Repositorios;
 using LogicaNegocio.Dominio;
 using LogicaAplicacion.InterfacesCU;
 using LogicaNegocio.ExcepcionesPropias;
+using ObligatorioP3.Filters;
 
 namespace ObligatorioP3.Controllers
 {
+    [Admin]
     public class VariablesController : Controller
     {
         public ICUModificar<Variable> CUModificar { get; set; }

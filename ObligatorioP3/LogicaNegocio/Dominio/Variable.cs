@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LogicaNegocio.ExcepcionesPropias;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -20,7 +21,20 @@ namespace LogicaNegocio.Dominio
         }
         public void Validar()
         {
-            // Pendiente
+            if (string.IsNullOrEmpty(Nombre))
+            {
+                throw new DatosInvalidosException("El nombre no puede ser nulo o vacío.");
+            }
+
+            if (Valor == 0)
+            {
+                throw new DatosInvalidosException("El valor no puede ser cero.");
+            }
+
+            if (Nombre == "DIASEXPRESS" && (Valor < 1 || Valor > 5))
+            {
+                throw new DatosInvalidosException("Para DIASEXPRESS, el valor debe estar entre 1 y 5.");
+            }
         }
     }
 }

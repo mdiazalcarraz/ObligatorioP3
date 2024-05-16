@@ -14,6 +14,8 @@ using LogicaAplicacion.CasosUso.CasosUsoPedido;
 using LogicaAplicacion.CasosUso.CasosUsoClientes;
 using LogicaAplicacion.CasosUso.CasosUsoVariable;
 using LogicaAplicacion.CasosUso.CasosUsoIva;
+using DTOs;
+using LogicaAplicacion.CasosUsoClientes;
 
 namespace ObligatorioP3
 {
@@ -32,7 +34,7 @@ namespace ObligatorioP3
             builder.Services.AddScoped<ICUListado<Usuario>, CUListarUsuarios>();
             builder.Services.AddScoped<ICUListado<Promocion>, CUListaPromocion>();
             builder.Services.AddScoped<ICUListado<Linea>, CUListarLineas>();
-            builder.Services.AddScoped<ICUAlta<Usuario>, CUAltaUsuario>();
+            builder.Services.AddScoped<ICUAlta<DTOAltaUsuario>, CUAltaUsuario>();
             builder.Services.AddScoped<ICUAlta<Promocion>, CUAltaPromocion>();
             builder.Services.AddScoped<ICUAlta<Linea>, CUAltaLinea>();
             builder.Services.AddScoped<ICUListado<Articulo>, CUListaArticuloOrden>();
@@ -45,7 +47,7 @@ namespace ObligatorioP3
             builder.Services.AddScoped<ICUBuscarPorId<Linea>, CUBuscarLineaPorId>();
             builder.Services.AddScoped<ICUBaja<Articulo>, CUBorrarArticulo>();
             builder.Services.AddScoped<ICUBuscarPorId<Articulo>, CUBuscarArticuloPorId>();
-            builder.Services.AddScoped<ICUModificar<Usuario>, CUEditarUsuario>();
+            builder.Services.AddScoped<ICUModificar<DTOEditarUsuario>, CUEditarUsuario>();
             builder.Services.AddScoped<ICUModificar<Variable>, CUEditarVariable>();
             builder.Services.AddScoped<ICUListado<Pedido>, CUListarPedidos>();
             builder.Services.AddScoped<ICUAlta<Pedido>, CUAltaPedido>();
@@ -57,6 +59,11 @@ namespace ObligatorioP3
             builder.Services.AddScoped<ICUListarPedidosAnulados, CUListarPedidosAnulados>();
             builder.Services.AddScoped<ICUAnularPedido, CUAnularPedido>();
             builder.Services.AddScoped<ICUCalcularTotal, CUCalcularTotal>();
+            builder.Services.AddScoped<ICUEncriptarContraseniaUsuario, CUEncriptarContraseniaUsuario>();
+            builder.Services.AddScoped<ICUDesEncriptarContraseniaUsuario, CUDesEncriptarContraseniaUsuario>();
+            builder.Services.AddScoped<ICUListarClientePorMonto, CUListarClienteMontoPedido>();
+            builder.Services.AddScoped<ICUListarClientePorNombre, CUListarClienteNombre>();
+
 
             builder.Services.AddScoped<IRepositorioUsuario, RepositorioUsuarioEF>();
             builder.Services.AddScoped<IRepositorioArticulo, RepositorioArticulosEF>();

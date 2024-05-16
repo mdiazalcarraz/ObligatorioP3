@@ -21,7 +21,7 @@ namespace LogicaDatos.Repositorios
         public Usuario Login(string email, string password)
         {
             Usuario buscado = Contexto.Usuarios
-                .Where(usu => usu.Email == email && usu.Contrasenia == password)
+                .Where(usu => usu.Email == email && usu.ContraseniaEncriptada == password)
                 .FirstOrDefault();
 
             return buscado;

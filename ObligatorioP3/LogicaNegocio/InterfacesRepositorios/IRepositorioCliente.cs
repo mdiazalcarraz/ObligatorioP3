@@ -9,7 +9,7 @@ namespace LogicaNegocio.InterfacesRepositorios
 {
     public interface IRepositorioCliente : IRepositorio<Cliente>
     {
-        public Cliente FindByRUT(int RUT);
+        public Cliente FindByRUT(long RUT);
 
         public List<Cliente> ListaByRazonSocial(string RazonSocial);
     }

@@ -38,13 +38,23 @@ namespace LogicaDatos.Repositorios
         {
             if (linea != null)
             {
-                linea.Validar();
-                if (FindById(linea.Id) == null)
+                try
                 {
-                    Contexto.Lineas.Add(linea);
-                    Contexto.SaveChanges();
+                    linea.Validar();
+                    if (FindById(linea.Id) == null)
+                    {
+                        Contexto.Lineas.Add(linea);
+                        Contexto.SaveChanges();
+                    }
+                    else
+                    {
+                        throw new DatosInvalidosException("La linea ya existe.");
+                    }
                 }
-                else { throw new DatosInvalidosException("La linea no pudo ser creada"); }
+                catch (Exception ex)
+                {
+                    throw new DatosInvalidosException("La linea no pudo ser creada: " + ex.Message);
+                }
             }
         }
 
@@ -116,6 +126,10 @@ namespace LogicaDatos.Repositorios
         public void AnularPedido(int ID)
         {
             Pedido pedido = Contexto.Pedidos.Find(ID);
+            if (pedido.Total == 0)
+            {
+                throw new DatosInvalidosException("El pedido tiene que haber sido posteado para poder ser anulado");
+            }
             if (pedido != null)
             {
                 pedido.Estado = "Anulado";
@@ -126,9 +140,14 @@ namespace LogicaDatos.Repositorios
         }
         public List<Pedido> ListarPedidosAnulados()
         {
-            return Contexto.Pedidos
+            return Contexto.Pedidos.Include(p => p.Cliente)
            .Where(pedido => pedido.Estado.Contains("Anulado"))
            .ToList();
         }
+        public List<Pedido> FindByIdCliente(int id)
+        {
+            return Contexto.Pedidos.Where(pedido => pedido.ClienteId == id).ToList();
+        }
+       
     }
 }

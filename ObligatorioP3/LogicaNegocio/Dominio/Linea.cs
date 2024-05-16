@@ -1,4 +1,5 @@
-﻿using LogicaNegocio.InterfacesDominio;
+﻿using LogicaNegocio.ExcepcionesPropias;
+using LogicaNegocio.InterfacesDominio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -33,7 +34,14 @@ namespace LogicaNegocio.Dominio
 
         public void Validar()
         {
-            //
+            if (Cantidad <= 0)
+            {
+                throw new DatosInvalidosException("La cantidad debe ser mayor que cero.");
+            }
+            if (Articulo != null && Cantidad > Articulo.Stock)
+            {
+                throw new DatosInvalidosException("La cantidad supera el stock disponible del artículo.");
+            }
         }
     }
 }

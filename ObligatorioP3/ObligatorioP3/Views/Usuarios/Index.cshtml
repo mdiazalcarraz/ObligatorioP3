@@ -6,7 +6,6 @@
 
 <h1>Lista de Usuarios</h1>
 
-<h4>{Luego de testing solo para admins}</h4>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -27,6 +26,9 @@
                 @Html.DisplayName("Contraseña")
             </th>
             <th>
+                @Html.DisplayName("Contraseña Encriptada")
+            </th>
+            <th>
                 @Html.DisplayName("Rol")
             </th>
             <th></th>
@@ -39,13 +41,16 @@
                 @Html.DisplayFor(modelItem => item.Id)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.NombreYApellido)
+                @Html.DisplayFor(modelItem => item.NombreYApellido.NombreValue)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Contrasenia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContraseniaEncriptada)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Administrador)
@@ -55,9 +60,11 @@
             @Html.ActionLink("Details", "Details", new { id = item.Id }) |
             @Html.ActionLink("Delete", "Delete", new { id = item.Id })
             </td>
+                <span>@ViewBag.Mensaje</span>
         </tr>
 
-            <span>@ViewBag.Mensaje</span>
 }
     </tbody>
 </table>
+
+

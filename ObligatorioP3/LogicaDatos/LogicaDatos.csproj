@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Compile Remove="Repositorios\RepositorioLineaEF.cs" />
+    <Compile Remove="Repositorios\RepositorioUsuarios.cs" />
   </ItemGroup>
 
   <ItemGroup>

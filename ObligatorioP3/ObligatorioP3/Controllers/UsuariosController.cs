@@ -11,29 +11,38 @@ using LogicaAplicacion.InterfacesCU;
 using LogicaAplicacion.CasosUso.CasosUsoUsuario;
 using LogicaNegocio.ExcepcionesPropias;
 using Microsoft.CodeAnalysis.FlowAnalysis;
+using ObligatorioP3.Models;
+using DTOs;
+using Humanizer;
+using LogicaNegocio.VOs;
+using ObligatorioP3.Filters;
 
 namespace ObligatorioP3.Controllers
 {
+    [Admin]
     public class UsuariosController : Controller
     {
 
         public ICUListado<Usuario> CUListado { get; set; }
 
-        public ICUAlta<Usuario> CUAlta { get; set; }
+        public ICUAlta<DTOAltaUsuario> CUAlta { get; set; }
 
         public ICUBaja<Usuario> CUBajaUsu { get; set; }
 
-        public ICUModificar<Usuario> CUModificar { get; set; }
+        public ICUModificar<DTOEditarUsuario> CUModificar { get; set; }
 
         public ICUBuscarPorId<Usuario> CUBuscar { get; set; }
 
-        public UsuariosController(ICUListado<Usuario> cuListado, ICUAlta<Usuario> cuAlta, ICUBaja<Usuario> cuBajaUsu, ICUModificar<Usuario> cuModificar, ICUBuscarPorId<Usuario> cUBuscarPorId)
+        public ICUEncriptarContraseniaUsuario CUEncriptar {  get; set; }
+
+        public UsuariosController(ICUListado<Usuario> cuListado, ICUAlta<DTOAltaUsuario> cuAlta, ICUBaja<Usuario> cuBajaUsu, ICUModificar<DTOEditarUsuario> cuModificar, ICUBuscarPorId<Usuario> cUBuscarPorId, ICUEncriptarContraseniaUsuario cUEncriptar)
         {
             CUListado = cuListado;
             CUAlta = cuAlta;
             CUModificar = cuModificar;
             CUBajaUsu = cuBajaUsu;
             CUBuscar = cUBuscarPorId;
+            CUEncriptar = cUEncriptar;
         }
 
         // GET: Usuarios
@@ -60,15 +69,21 @@ namespace ObligatorioP3.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Usuario nuevo)
+        public ActionResult Create(UsuarioViewModelAlta vm)
         {
             try
             {
-                if (ModelState.IsValid)
+                DTOAltaUsuario nuevo = new DTOAltaUsuario()
                 {
+                    NombreYApellido = vm.NombreYApellido,
+                    Contrasenia = vm.Contrasenia,
+                    Administrador = vm.Administrador,
+                    Email = vm.Email,
+                    ContraseniaEncriptada = CUEncriptar.EncriptarContrasenia(vm.Contrasenia),
+                };
                     CUAlta.Alta(nuevo);
                     return RedirectToAction(nameof(Index));
-                }
+               
             }
             catch (DatosInvalidosException ex)
             {
@@ -79,14 +94,22 @@ namespace ObligatorioP3.Controllers
                 ViewBag.Mensaje = "Ocurrió un error inesperado. No se hizo el alta de Usuario";
             }
 
-            return View(nuevo);
+            return View(vm);
         }
 
         // GET: Usuarios/Edit/5
         public ActionResult Edit(int id)
         {
             Usuario u = CUBuscar.Buscar(id);
-            return View(u);
+            UsuarioViewModelEditar vm = new UsuarioViewModelEditar()
+            {
+                NombreYApellido = u.NombreYApellido.NombreValue,
+                Contrasenia = u.Contrasenia,
+                Administrador = u.Administrador,
+                Email = u.Email,
+                Id = id,
+            };
+            return View(vm);
         }
 
         // POST: Usuarios/Edit/5
@@ -94,12 +117,20 @@ namespace ObligatorioP3.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, Usuario u)
+        public ActionResult Edit(int id, UsuarioViewModelEditar vm)
         {
             try
             {
-                u.Id = id;
-                CUModificar.Modificar(u);
+                DTOEditarUsuario nuevo = new DTOEditarUsuario()
+                {
+                    NombreYApellido = vm.NombreYApellido,
+                    Contrasenia = vm.Contrasenia,
+                    Administrador = vm.Administrador,
+                    Email = vm.Email,
+                    Id = vm.Id,
+                    ContraseniaEncriptada = CUEncriptar.EncriptarContrasenia(vm.Contrasenia),
+                };
+                CUModificar.Modificar(nuevo);
                 return RedirectToAction(nameof(Index));
             }
             catch (DatosInvalidosException e)

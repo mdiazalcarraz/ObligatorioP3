@@ -12,7 +12,7 @@ namespace LogicaNegocio.Dominio
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public int Codigo { get; set; }
+        public long Codigo { get; set; }
         public string Descripcion   { get; set; }
         public int Precio   { get; set; }
         public int Stock   { get; set; }
@@ -24,7 +24,26 @@ namespace LogicaNegocio.Dominio
 
         public void Validar()
         {
-            if (string.IsNullOrEmpty(Nombre) || Nombre.Length < 10 || Nombre.Length > 200) { throw new DatosInvalidosException("El nombre no esta entre 10 y 200 caracteres o es vacio"); }
+            if (string.IsNullOrEmpty(Descripcion) || Descripcion.Length < 5)
+            {
+                throw new DatosInvalidosException("La descripción debe tener al menos 5 caracteres.");
+            }
+            if (string.IsNullOrEmpty(Nombre))
+            {
+                throw new DatosInvalidosException("El nombre no puede ser vacío.");
+            }
+            if (Codigo <= 0 || Codigo.ToString().Length != 13)
+            {
+                throw new DatosInvalidosException("El código debe ser un número positivo de exactamente 13 dígitos significativos.");
+            }
+            if (Precio <= 0)
+            {
+                throw new DatosInvalidosException("El precio debe ser un número positivo.");
+            }
+            if (Stock < 0)
+            {
+                throw new DatosInvalidosException("El stock no puede ser negativo.");
+            }
         }
     }
 }

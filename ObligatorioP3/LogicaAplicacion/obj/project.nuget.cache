@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jluKeBTLrg3PjRroy+pZJKvTfq5rRjXKEpW/aRPxdxmT4EaWCPrwzlwNMfD2K66ikZ4eu41EneVI0Qe/KWiaoA==",
+  "dgSpecHash": "YRAnV3UIY0AkoVpXS1auYh4N/UimbRUXvDipiulmMnAQgxNwkzIpKfmZax/3awUAd/Y3ZiXKC0QCNx1ZUZYZQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\LogicaAplicacion\\LogicaAplicacion.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,7 @@
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.1\\microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.4\\microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
-    "C:\\Users\\mathi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.4\\microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",
+    "C:\\Users\\mathi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.4\\microsoft.entityframeworkcore.analyzers.8.0.4.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.4\\microsoft.entityframeworkcore.relational.8.0.4.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.4\\microsoft.entityframeworkcore.sqlserver.8.0.4.nupkg.sha512",

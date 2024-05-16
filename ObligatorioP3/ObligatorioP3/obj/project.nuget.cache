@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JiE7Ntv/yPi2/E77CiRaX3KeyVAP6s5axMQbkgZxCTpBF5xVmieTv2APhRwzfz/xC50U3wrQ0SGJ4lkkg69gwA==",
+  "dgSpecHash": "MYpGQiH84Otea5iP3bVVD5p0GOLAO6w5swqBXrRA7PCrelcLeBPkLm2LlCQ1i/z1pXEDCpxY4yq7qGo8D1cS+g==",
   "success": true,
   "projectFilePath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\ObligatorioP3\\ObligatorioP3.csproj",
   "expectedPackageFiles": [
@@ -85,7 +85,7 @@
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.diasymreader\\2.0.0\\microsoft.diasymreader.2.0.0.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.dotnet.scaffolding.shared\\8.0.2\\microsoft.dotnet.scaffolding.shared.8.0.2.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.4\\microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
-    "C:\\Users\\mathi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.4\\microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",
+    "C:\\Users\\mathi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.4\\microsoft.entityframeworkcore.analyzers.8.0.4.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.4\\microsoft.entityframeworkcore.design.8.0.4.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.4\\microsoft.entityframeworkcore.relational.8.0.4.nupkg.sha512",

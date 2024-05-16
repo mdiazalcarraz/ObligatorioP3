@@ -1,5 +1,6 @@
 
 using LogicaAplicacion.CasosUsoArticulo;
+using LogicaAplicacion.CasosUsoPedido;
 using LogicaAplicacion.InterfacesCU;
 using LogicaDatos.Repositorios;
 using LogicaNegocio.Dominio;
@@ -21,8 +22,10 @@ namespace WebAPI
             builder.Services.AddSwaggerGen();
 
             builder.Services.AddScoped<ICUListado<Articulo>, CUListaArticuloOrden>();
+            builder.Services.AddScoped<ICUListarPedidosAnulados, CUListarPedidosAnulados>();
 
             builder.Services.AddScoped<IRepositorioArticulo, RepositorioArticulosEF>();
+            builder.Services.AddScoped<IRepositorioPedido, RepositorioPedidoEF>();
 
             builder.Services.AddDbContext<LibreriaContext>();
 
