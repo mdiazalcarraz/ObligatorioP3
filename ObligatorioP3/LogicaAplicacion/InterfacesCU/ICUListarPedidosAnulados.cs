@@ -1,4 +1,5 @@
-﻿using LogicaNegocio.Dominio;
+﻿using DTOs;
+using LogicaNegocio.Dominio;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace LogicaAplicacion.InterfacesCU
 {
     public interface ICUListarPedidosAnulados
     {
-        List<Pedido> ListarPedidosAnulados();
+        List<DTOPedidoSimple> ListarPedidosAnulados();
     }
 }

@@ -14,6 +14,7 @@ using System.Drawing.Drawing2D;
 using LogicaAplicacion.CasosUsoPedido;
 using ObligatorioP3.Models;
 using ObligatorioP3.Filters;
+using LogicaAplicacion.CasosUso.CasosUsoPedido;
 
 namespace ObligatorioP3.Controllers
 {
@@ -46,8 +47,11 @@ namespace ObligatorioP3.Controllers
 
         public ICUCalcularTotal CUCalcularTotal { get; set; }
 
+        public ICUListarPedidosPorFecha CUListarPedidosPorFecha { get; set; }
 
-        public PedidosController(ICUListado<Pedido> cuListado, ICUAlta<Pedido> cuAlta, ICUBuscarPorId<Pedido> cUBuscar, ICUListado<Cliente> cUListadoClientes, ICUListado<Promocion> cUListadoPromocion, ICUListado<Articulo> cUListadoArticulo, ICUBuscarPorId<Cliente> cUBuscarCliente, ICUBuscarPorId<Articulo> cUBuscarArticulo, ICUBuscarPorId<Promocion> cUBuscarPromocion, ICUAlta<Linea> cUAltaLinea, ICUListarPedidosAnulados cUListarPedidosAnulados, ICUAnularPedido cUAnularPedido, ICUCalcularTotal cUCalcularTotal)
+
+        public PedidosController(ICUListado<Pedido> cuListado, ICUAlta<Pedido> cuAlta, ICUBuscarPorId<Pedido> cUBuscar, ICUListado<Cliente> cUListadoClientes, ICUListado<Promocion> cUListadoPromocion, ICUListado<Articulo> cUListadoArticulo, ICUBuscarPorId<Cliente> cUBuscarCliente, ICUBuscarPorId<Articulo> cUBuscarArticulo, ICUBuscarPorId<Promocion> cUBuscarPromocion, ICUAlta<Linea> cUAltaLinea, ICUListarPedidosAnulados cUListarPedidosAnulados, ICUAnularPedido cUAnularPedido, ICUCalcularTotal cUCalcularTotal, ICUListarPedidosPorFecha cUListarPedidosPorFecha)
+
         {
             CUListado = cuListado;
             CUAlta = cuAlta;
@@ -62,6 +66,7 @@ namespace ObligatorioP3.Controllers
             CUListarPedidosAnulados = cUListarPedidosAnulados;
             CUAnularPedido = cUAnularPedido;
             CUCalcularTotal = cUCalcularTotal;
+            CUListarPedidosPorFecha = cUListarPedidosPorFecha;
         }
 
         // GET: Pedidos
@@ -70,13 +75,6 @@ namespace ObligatorioP3.Controllers
             List<Pedido> Pedidos = CUListado.ObtenerListado();
             return View(Pedidos);
         }
-
-        public IActionResult ListarPedidosAnulados()
-        {
-            List<Pedido> PedidosAnulados = CUListarPedidosAnulados.ListarPedidosAnulados();
-            return View("Index", PedidosAnulados);
-        }
-
 
         // GET: Pedidos/Create
         public IActionResult Create()
@@ -172,6 +170,21 @@ namespace ObligatorioP3.Controllers
 
 
             return true;
+        }
+
+        public IActionResult ListaPedidosParaAnular(DateTime? FechaFiltro)
+        {
+            IEnumerable<Pedido> pedidos = new List<Pedido>();
+
+            if (FechaFiltro.HasValue)
+            {
+                pedidos = CUListarPedidosPorFecha.FiltrarPedidosPorFecha(FechaFiltro.Value);
+            } else
+            {
+                ViewBag.Mensaje = "Por favor ingresar una fecha.";
+            }
+
+            return View(pedidos);
         }
     }
 }

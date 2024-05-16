@@ -1,4 +1,5 @@
-﻿using LogicaAplicacion.InterfacesCU;
+﻿using DTOs;
+using LogicaAplicacion.InterfacesCU;
 using LogicaNegocio.Dominio;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -22,9 +23,9 @@ namespace WebAPI.Controllers
         {
             try
             {
-                List<Pedido> pedidos = CUListadoAnulados.ListarPedidosAnulados();
+                List<DTOPedidoSimple> pedidos = CUListadoAnulados.ListarPedidosAnulados();
                 pedidos = pedidos.OrderBy(u => u.FechaPedido)
-                         .ToList();
+                         .ToList(); 
                 return Ok(pedidos);
             }
             catch (Exception ex)

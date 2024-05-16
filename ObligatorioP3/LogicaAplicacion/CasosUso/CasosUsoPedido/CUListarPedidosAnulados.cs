@@ -1,4 +1,5 @@
-﻿using LogicaAplicacion.InterfacesCU;
+﻿using DTOs;
+using LogicaAplicacion.InterfacesCU;
 using LogicaNegocio.Dominio;
 using LogicaNegocio.InterfacesRepositorios;
 using System;
@@ -17,9 +18,11 @@ namespace LogicaAplicacion.CasosUsoPedido
         {
             Repo = repo;
         }
-        public List<Pedido> ListarPedidosAnulados()
+        public List<DTOPedidoSimple> ListarPedidosAnulados()
         {
-            return Repo.ListarPedidosAnulados();
+            List<Pedido> pedidosAnulados = Repo.ListarPedidosAnulados(); 
+            List<DTOPedidoSimple> DTOPedidos = MapperPedidos.ToListaDTOAutorSimple(pedidosAnulados);
+            return DTOPedidos;
         }
     }
 }

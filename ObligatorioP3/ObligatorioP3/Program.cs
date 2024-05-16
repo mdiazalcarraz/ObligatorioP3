@@ -63,6 +63,7 @@ namespace ObligatorioP3
             builder.Services.AddScoped<ICUDesEncriptarContraseniaUsuario, CUDesEncriptarContraseniaUsuario>();
             builder.Services.AddScoped<ICUListarClientePorMonto, CUListarClienteMontoPedido>();
             builder.Services.AddScoped<ICUListarClientePorNombre, CUListarClienteNombre>();
+            builder.Services.AddScoped<ICUListarPedidosPorFecha, CUListarPedidosPorFecha>();
 
 
             builder.Services.AddScoped<IRepositorioUsuario, RepositorioUsuarioEF>();
