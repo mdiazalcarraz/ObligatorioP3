@@ -75,41 +75,66 @@ namespace WebAppMVC.Controllers
         // GET: movimientoStockController/Create
         public ActionResult Create()
         {
-            //try
-            //{
-            //    HttpClient client = new HttpClient();
-            //    string url = "http://localhost:5190/api/Articulos";
+            try
+            {
 
-            //    Task<HttpResponseMessage> tarea1 = client.GetAsync(url);
-            //    tarea1.Wait();
+                //Get Articulos
+                HttpClient client = new HttpClient();
+                string url = "http://localhost:5190/api/Articulos";
 
-            //    HttpResponseMessage respuesta = tarea1.Result;
+                Task<HttpResponseMessage> tarea1 = client.GetAsync(url);
+                tarea1.Wait();
 
-            //    if (respuesta.IsSuccessStatusCode)
-            //    {
-            //        HttpContent contenido = respuesta.Content;
+                HttpResponseMessage respuesta = tarea1.Result;
 
-            //        Task<string> tarea2 = contenido.ReadAsStringAsync();
-            //        tarea2.Wait();
+                //Get TiposMovimiento
+                HttpClient client2 = new HttpClient();
+                string url2 = "http://localhost:5190/api/TipoMovimientos";
 
-            //        string json = tarea2.Result;
+                Task<HttpResponseMessage> tarea2 = client.GetAsync(url2);
+                tarea2.Wait();
 
-            //        List<DTOArticulo> articulos = JsonConvert.DeserializeObject<List<DTOArticulo>>(json);
-            //        ViewBag.Articulos = articulos.Select(a => new SelectListItem
-            //        {
-            //            Value = a.Id.ToString(),
-            //            Text = a.Nombre
-            //        }).ToList();
-            //    }
-            //    else
-            //    {
-            //        ViewBag.Mensaje = "No se pudieron obtener los artículos.";
-            //    }
-            //}
-            //catch (Exception ex)
-            //{
-            //    ViewBag.Mensaje = "Error: " + ex.Message;
-            //}
+                HttpResponseMessage respuesta2 = tarea2.Result;
+
+                if (respuesta.IsSuccessStatusCode && respuesta2.IsSuccessStatusCode)
+                {
+                    HttpContent contenido = respuesta.Content;
+
+                    Task<string> tarea3 = contenido.ReadAsStringAsync();
+                    tarea2.Wait();
+
+                    string json = tarea3.Result;
+
+                    List<DTOArticulo> articulos = JsonConvert.DeserializeObject<List<DTOArticulo>>(json);
+                    ViewBag.Articulos = articulos.Select(a => new SelectListItem
+                    {
+                        Value = a.Id.ToString(),
+                        Text = a.Nombre
+                    }).ToList();
+
+                    //ViewBag Articulos
+
+                    HttpContent contenido2 = respuesta2.Content;
+
+                    Task<string> tarea4 = contenido2.ReadAsStringAsync();
+                    tarea4.Wait();
+
+                    string json2 = tarea4.Result;
+
+                    List<DTOTipoMovimiento> tipoMovimiento = JsonConvert.DeserializeObject<List<DTOTipoMovimiento>>(json2);
+                    ViewBag.TipoMovimiento = tipoMovimiento.Select(a => new SelectListItem
+                    {
+                        Value = a.Id.ToString(),
+                        Text = a.Nombre
+                    }).ToList();
+
+                    //ViewBag TipoMovimiento
+                }
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = "Error: " + ex.Message;
+            }
 
             return View();
         }

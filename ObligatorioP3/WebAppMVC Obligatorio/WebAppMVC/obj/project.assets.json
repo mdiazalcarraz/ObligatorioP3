@@ -5696,11 +5696,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\WebAppMVC.csproj",
+      "projectUniqueName": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\WebAppMVC.csproj",
       "projectName": "WebAppMVC",
-      "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\WebAppMVC.csproj",
+      "projectPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\WebAppMVC.csproj",
       "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\obj\\",
+      "outputPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",

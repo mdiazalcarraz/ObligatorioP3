@@ -1,74 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\",
+  "WorkspaceRootPath": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\controllers\\movimientostockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:controllers\\movimientostockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\views\\movimientostock\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\movimientostock\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\views\\movimientostock\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\movimientostock\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\views\\tipomovimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\tipomovimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\views\\movimientostock\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\movimientostock\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\dtos\\dtomovimientostock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtomovimientostock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\controllers\\tipomovimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:controllers\\tipomovimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\dtos\\dtoarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtoarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\dtos\\dtotipomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\dtos\\dtousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\dtos\\dtotipomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtotipomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\views\\tipomovimiento\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\tipomovimiento\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\controllers\\tipomovimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:controllers\\tipomovimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\views\\tipomovimiento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\tipomovimiento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\views\\tipomovimiento\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\views\\tipomovimiento\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\tipomovimiento\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\views\\tipomovimiento\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\views\\tipomovimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\tipomovimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\controllers\\movimientostockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:controllers\\movimientostockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\views\\movimientostock\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\movimientostock\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\views\\movimientostock\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\movimientostock\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\dtos\\dtomovimientostock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtomovimientostock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\views\\movimientostock\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\movimientostock\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\views\\tipomovimiento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\tipomovimiento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\views\\tipomovimiento\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\tipomovimiento\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\views\\tipomovimiento\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{765C5FB4-E45F-4737-B340-3A2CEB8895F2}|WebAppMVC.csproj|solutionrelative:views\\tipomovimiento\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\webappmvc obligatorio\\webappmvc\\dtos\\dtousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|c:\\users\\mathi\\onedrive\\escritorio\\ort\\p3\\obligatorio1.2\\obligatoriop3\\webappmvc obligatorio\\webappmvc\\dtos\\dtoarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{591AF7BE-6670-4931-AA2F-D25FC2D67B3D}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtoarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,78 +110,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DTOMovimientoStock.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOMovimientoStock.cs",
-              "RelativeDocumentMoniker": "DTOs\\DTOMovimientoStock.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOMovimientoStock.cs",
-              "RelativeToolTip": "DTOs\\DTOMovimientoStock.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T00:28:18.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\MovimientoStock\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\MovimientoStock\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\MovimientoStock\\Index.cshtml",
-              "RelativeToolTip": "Views\\MovimientoStock\\Index.cshtml",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAYwDEAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T00:23:15.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\TipoMovimiento\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Index.cshtml",
-              "RelativeToolTip": "Views\\TipoMovimiento\\Index.cshtml",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAqwDAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T19:52:51.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\MovimientoStock\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\MovimientoStock\\Details.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\MovimientoStock\\Details.cshtml",
-              "RelativeToolTip": "Views\\MovimientoStock\\Details.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAYwDoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T00:23:32.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "TipoMovimientoController.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Controllers\\TipoMovimientoController.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Controllers\\TipoMovimientoController.cs",
               "RelativeDocumentMoniker": "Controllers\\TipoMovimientoController.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Controllers\\TipoMovimientoController.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Controllers\\TipoMovimientoController.cs",
               "RelativeToolTip": "Controllers\\TipoMovimientoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAmwKcAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T16:31:51.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\TipoMovimiento\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Edit.cshtml",
+              "RelativeToolTip": "Views\\TipoMovimiento\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T19:57:07.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DTOTipoMovimiento.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOTipoMovimiento.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOTipoMovimiento.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOTipoMovimiento.cs",
+              "RelativeToolTip": "DTOs\\DTOTipoMovimiento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T00:28:00.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA0AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T19:53:41.186Z",
               "EditorCaption": ""
@@ -185,137 +163,184 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\MovimientoStock\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\MovimientoStock\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\MovimientoStock\\Create.cshtml",
-              "RelativeToolTip": "Views\\MovimientoStock\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T00:23:24.102Z",
+              "Title": "DTOUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOUsuario.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOUsuario.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOUsuario.cs",
+              "RelativeToolTip": "DTOs\\DTOUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T00:12:05.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DTOArticulo.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOArticulo.cs",
-              "RelativeDocumentMoniker": "DTOs\\DTOArticulo.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOArticulo.cs",
-              "RelativeToolTip": "DTOs\\DTOArticulo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T00:27:15.514Z"
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAuwBoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T20:17:18.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MovimientoStockController.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Controllers\\MovimientoStockController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MovimientoStockController.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Controllers\\MovimientoStockController.cs",
-              "RelativeToolTip": "Controllers\\MovimientoStockController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T23:42:38.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwCgAAABnAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAtwC8AAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T02:25:03.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBwAAACFAAAA",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TipoMovimiento\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Index.cshtml",
+              "RelativeToolTip": "Views\\TipoMovimiento\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T20:17:18.166Z"
+              "WhenOpened": "2024-06-09T19:52:51.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovimientoStockController.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Controllers\\MovimientoStockController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MovimientoStockController.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Controllers\\MovimientoStockController.cs",
+              "RelativeToolTip": "Controllers\\MovimientoStockController.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAgwC0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T23:42:38.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T23:46:41.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\MovimientoStock\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\MovimientoStock\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\MovimientoStock\\Index.cshtml",
+              "RelativeToolTip": "Views\\MovimientoStock\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T00:23:15.139Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "DTOTipoMovimiento.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOTipoMovimiento.cs",
-              "RelativeDocumentMoniker": "DTOs\\DTOTipoMovimiento.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOTipoMovimiento.cs",
-              "RelativeToolTip": "DTOs\\DTOTipoMovimiento.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T00:28:00.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\TipoMovimiento\\Details.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Details.cshtml",
-              "RelativeToolTip": "Views\\TipoMovimiento\\Details.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwCMAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\MovimientoStock\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\MovimientoStock\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\MovimientoStock\\Details.cshtml",
+              "RelativeToolTip": "Views\\MovimientoStock\\Details.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T19:57:19.289Z"
+              "WhenOpened": "2024-06-10T00:23:32.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\TipoMovimiento\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Create.cshtml",
-              "RelativeToolTip": "Views\\TipoMovimiento\\Create.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAqwCwAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\MovimientoStock\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\MovimientoStock\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\MovimientoStock\\Create.cshtml",
+              "RelativeToolTip": "Views\\MovimientoStock\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T19:57:34.636Z"
+              "WhenOpened": "2024-06-10T00:23:24.102Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\TipoMovimiento\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Delete.cshtml",
-              "RelativeToolTip": "Views\\TipoMovimiento\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA2AAAA",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\TipoMovimiento\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Details.cshtml",
+              "RelativeToolTip": "Views\\TipoMovimiento\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T19:57:27.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\TipoMovimiento\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Edit.cshtml",
-              "RelativeToolTip": "Views\\TipoMovimiento\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T19:57:07.994Z"
+              "WhenOpened": "2024-06-09T19:57:19.289Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "DTOUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOUsuario.cs",
-              "RelativeDocumentMoniker": "DTOs\\DTOUsuario.cs",
-              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOUsuario.cs",
-              "RelativeToolTip": "DTOs\\DTOUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\TipoMovimiento\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Delete.cshtml",
+              "RelativeToolTip": "Views\\TipoMovimiento\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T19:57:27.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DTOMovimientoStock.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOMovimientoStock.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOMovimientoStock.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOMovimientoStock.cs",
+              "RelativeToolTip": "DTOs\\DTOMovimientoStock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T00:12:05.991Z"
+              "WhenOpened": "2024-06-09T00:28:18.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\TipoMovimiento\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\Views\\TipoMovimiento\\Create.cshtml",
+              "RelativeToolTip": "Views\\TipoMovimiento\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T19:57:34.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DTOArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOArticulo.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOArticulo.cs",
+              "ToolTip": "C:\\Users\\mathi\\OneDrive\\Escritorio\\ORT\\P3\\Obligatorio1.2\\ObligatorioP3\\WebAppMVC Obligatorio\\WebAppMVC\\DTOs\\DTOArticulo.cs",
+              "RelativeToolTip": "DTOs\\DTOArticulo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T00:27:15.514Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -3,7 +3,7 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Detalle</h1>
 <span>@ViewBag.Mensaje</span>
 <div>
     <h4>Movimiento de Stock</h4>
@@ -12,54 +12,53 @@
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Id)
         </dt>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.NombreArticulo)
-        </dt>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.IdArticulo)
-        </dt>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.NombreTipoMovimiento)
-        </dt>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.IdTipoMovimiento)
-        </dt>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.EmailUsuario)
-        </dt>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.IdUsuario)
-        </dt>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.CantidadUnidades)
-        </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Id)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NombreArticulo)
+        </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.NombreArticulo)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IdArticulo)
+        </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.IdArticulo)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NombreTipoMovimiento)
+        </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.NombreTipoMovimiento)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IdTipoMovimiento)
+        </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.IdTipoMovimiento)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EmailUsuario)
+        </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.EmailUsuario)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IdUsuario)
+        </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.IdUsuario)
         </dd>
-        <dd class="col-sm-10">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CantidadUnidades)
+        </dt>
+        <td>
             @Html.DisplayFor(model => model.CantidadUnidades)
-        </dd>
+        </td>
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
     <a asp-action="Index">Back to List</a>
 </div>
